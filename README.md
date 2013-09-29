@@ -1,4 +1,4 @@
-thinkful
+Thinkful
 ========
 
 Enjoying Thinkful Exercises
