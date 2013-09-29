@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+box-sizing(border-box);
+}
+
+#greeting {
+    float:left;
+    display: block;
+    background-color: #ffffff;
+    height: 35px;
+    margin-top: 30px;
+    color: #BBB;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+    text-align: right;
+    width: 90px;
+}
+
+#nav {
+    float: right;
+    background-color: #ffffff;
+    min-height: 33px;
+}
+
+#nav ul {
+    padding: 25px 0px 5px 25px;
+}
+
+#nav ul li {
+    display: inline;
+    padding: 10px 8px 5px 9px;
+    color: #9999AF;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+    text-align: right;
+    width: 30px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #9999AF;
+}
+
+#nav ul a:hover {
+    color: #51B9E6;
+}
+
+#nav ul #selected {
+    color: #51B9E6;
+}
+
+#logo {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.hero {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 40pt;
+   font-weight: 600;
+   text-align: center;
+}
+.subtext {
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.rappers_delight {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.grid {
+    overflow: hidden;
+    background: white;
+}
+
+[   class*='col-'] {
+    float: left;
+    padding-right: 20px;
+}
+.grid:last-of-type {
+    padding-right: 0;
+}
+
+.col-1-3 {
+    display: inline-block;
+    width: 180px;
+    margin-right: 10px;
+}
+
+.module {
+    height: 220px;
+    padding: 10px;
+    background: linear-gradient(#FFFFFF, #F0F0F0);
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+
+}
+
+.module img {
+    height: 88px;
+    text-align: center;
+}
+.module h2 {
+    float: left;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #336699;
+    text-decoration: underline;
+    padding-left: 16%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.module h3 {
+    clear: both;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+    color: #CC0000;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.module span {
+    float: right;
+    margin-right: 10px;
+    font-size: 9pt;
+    color: #adadad;
+    vertical-align: text-top;
+    text-decoration: none;
+}
+.module p {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 11pt;
+    color: #000000;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.col-1-3:nth-child(2) h2 {
+    padding-left: 22%;
+}
+.col-1-3:nth-child(3) h2 {
+    padding-left: 22%;
+}
+
+hr {
+    background: url("images/img-hr.png") no-repeat 51%;;
+    height: 10px;
+    border: 0;
+}
+
+/* Opt-in outside padding */
+.grid-pad {
+    display: inline-block;
+    padding: 20px 0 20px 50px;
+    margin-bottom: 15px;
+    [class*='col-']:last-of-type {
+    padding-right: 20px;
+}
+}
