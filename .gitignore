@@ -1,0 +1,52 @@
+# .gitignore boilerplate ( extended by Nicolai Froehlich <nico@nifr.de> )
+# taken from https://gist.github.com/817258
+
+# editor temp files
+*~
+
+tmp/**/*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.pyc
+*.pyo
+.installed.cfg
+
+downloads
+build
+dist
+
+# egg related
+develop-eggs
+*.egg-info
+*.egg
+*.EGG
+*.EGG-INFO
+src/*.egg-info
+eggs
+fake-eggs
+
+# django
+local_settings.py
+
+# SCM
+.hg
+.bzr
+.svn
+
+pip-log.txt
+
+# [ NiFr ]Eclipse Editor
+.project
+.buildpath
+.settings/*
+deps.lock
+
+# symfony2 cache,logs,config
+/app/cache/*
+/app/logs/*
+app/config/parameters.ini
+/web/compiled/*
+
+._*
