@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#nav {
+    background-color: #000;
+    min-height: 33px;
+}
+
+#nav ul {
+    padding: 8px 0px 5px 7px;
+}
+
+#nav ul li {
+    display: inline;
+    padding: 5px 8px 5px 9px;
+    color: #BBB;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    text-align: right;
+    width: 30px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #BBB;
+}
+
+#nav ul a:hover {
+    color: #FFF;
+}
+
+#nav ul #selected {
+    color: #FFF;
+}
+
+#logo {
+    margin-top: 162px;
+    text-align: center;
+    height: 100px;
+    color: #FFF;
+}
+
+#logo_google {
+    height: 95px;
+    color: #FFF;
+}
+
+#signin {
+    position: relative;
+    height: 10px;
+    margin-left: 65%;
+}
+
+.btn_signin {
+    position: relative;
+    float: right;
+    margin-right: 43px;
+    margin-top: 20px;
+    background-color: #D94A38;
+    border-radius: 3px;
+    text-indent: 0;
+    border: 1px solid #d02718;
+    display: block;
+    color: #ffffff;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    height: 26px;
+    line-height: 27px;
+    width: 70px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn_signin:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #D8311B;
+}
+
+.btn_signin a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#srch {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#fld_search {
+    text-align: left;
+    height: 29px;
+    width: 570px;
+    border: 1px solid #BBB;
+    font-size: 12pt;
+    background: url(mic.png) no-repeat right center;
+}
+
+#fld_search:focus {
+    outline: none;
+    border: 1px solid #09C;
+    box-shadow: none;
+}
+
+#btns_search {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    height: 80px;
+    color: #FFF;
+}
+
+.btn_search {
+    margin-right: 10px;
+    background-color: #F1F1F1;
+    border-radius: 3px;
+    text-indent: 0;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    color: #444444;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    font-style: normal;
+    height: 26px;
+    line-height: 27px;
+    width: 130px;
+    text-align: center;
+}
+.btn_search:hover {
+    text-decoration: none;
+    color: #444444;
+    border: 1px solid #BBB;
+}
+.btn_search a {
+    text-decoration: none;
+    color: #444444;
+}
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    border-top: 1px solid #F1F1F1;
+}
+
+#footer ul {
+    position: relative;
+    float: right;
+    margin-right: 51px;
+    padding: 3px 0px 5px 7px;
+
+}
+
+#footer ul li {
+    display: inline;
+    padding: 5px 8px 5px 9px;
+    color: #746666;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+    text-align: right;
+    width: 30px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #746666;
+}
+#footer a:link {
+    color: #746666;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
