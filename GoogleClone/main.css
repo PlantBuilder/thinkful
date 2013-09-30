@@ -53,7 +53,7 @@ html, body {
 
 div#rappers_delight {
     min-height: 100%;
-    height: auto;
+    height: auto !important;
     height: 100%;
     margin: 0px 0px -30px 0px;
 }
@@ -204,21 +204,21 @@ div#rappers_content {
 
 
 
-#footer {
+div#footer {
     height: 30px;
     width: 100%;
     border-top: 1px solid #F1F1F1;
     white-space: nowrap;
 }
 
-#footer ul {
+div#footer ul {
     margin-left: 50%;
     text-align: right;
     padding: 3px 30px 5px 7px;
 
 }
 
-#footer ul li {
+div#footer ul li {
     display: inline;
     padding: 5px 8px 5px 9px;
     color: #746666;
@@ -228,14 +228,14 @@ div#rappers_content {
     width: 30px;
 }
 
-#footer ul li a {
+div#footer ul li a {
     text-decoration: none;
     color: #746666;
 }
-#footer a:link {
+div#footer a:link {
     color: #746666;
 }
 
-#footer a:hover {
+div#footer a:hover {
     text-decoration: underline;
 }

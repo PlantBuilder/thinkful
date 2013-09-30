@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c11a4f6-5ceb-4eb6-a0d5-614355bdd8fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/37signals/main.css" afterPath="$PROJECT_DIR$/37signals/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoogleClone/main.css" afterPath="$PROJECT_DIR$/GoogleClone/main.css" />
     </list>
     <ignored path="thinkful.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="48" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.90434784" vertical-offset="66" max-vertical-offset="780">
+            <state line="32" column="45" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.6" vertical-offset="66" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -38,7 +37,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="27" selection-start="3894" selection-end="3894" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="3690">
+            <state line="59" column="41" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="711" max-vertical-offset="3690">
               <folding />
             </state>
           </provider>
@@ -382,14 +381,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="27" selection-start="3894" selection-end="3894" vertical-scroll-proportion="0.0" vertical-offset="2916" max-vertical-offset="3690">
+        <state line="59" column="41" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="711" max-vertical-offset="3690">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="48" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.90434784" vertical-offset="66" max-vertical-offset="780">
+        <state line="32" column="45" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.6" vertical-offset="66" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
