@@ -66,9 +66,10 @@ box-sizing(border-box);
 }
 
 #nav {
-    float: right;
     background-color: #ffffff;
     min-height: 33px;
+    text-align: right;
+    white-space: nowrap;
 }
 
 #nav ul {
