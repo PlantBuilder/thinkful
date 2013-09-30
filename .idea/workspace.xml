@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c11a4f6-5ceb-4eb6-a0d5-614355bdd8fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/37signals/index.html" afterPath="$PROJECT_DIR$/37signals/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoogleClone/index.html" afterPath="$PROJECT_DIR$/GoogleClone/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoogleClone/main.css" afterPath="$PROJECT_DIR$/GoogleClone/main.css" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,25 +29,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="58" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="35" column="12" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-18.125" vertical-offset="90" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/37signals/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="64" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.86410636" vertical-offset="165" max-vertical-offset="960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="23" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="3510">
+            <state line="51" column="1" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.2647059" vertical-offset="576" max-vertical-offset="3690">
               <folding />
             </state>
           </provider>
@@ -72,14 +64,16 @@
       <list>
         <option value="$PROJECT_DIR$/37signals/main.css" />
         <option value="$PROJECT_DIR$/37signals/application.js" />
-        <option value="$PROJECT_DIR$/GoogleClone/main.css" />
         <option value="$PROJECT_DIR$/37signals/index.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/GoogleClone/index.html" />
+        <option value="$PROJECT_DIR$/GoogleClone/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="40" />
+    <option name="x" value="38" />
+    <option name="y" value="29" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -164,8 +158,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Background" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -179,14 +174,6 @@
     </servers>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -195,6 +182,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -236,7 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="40" width="1400" height="860" extended-state="0" />
+    <frame x="38" y="29" width="1400" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -278,9 +273,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -295,6 +290,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="58" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/37signals/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="64" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="23" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="3510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="58" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -341,23 +357,23 @@
         <state line="228" column="44" selection-start="4317" selection-end="4317" vertical-scroll-proportion="0.78932583" vertical-offset="2858" max-vertical-offset="3885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
+    <entry file="file://$PROJECT_DIR$/37signals/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="23" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="2610" max-vertical-offset="3510">
+        <state line="50" column="64" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.74298376" vertical-offset="247" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="58" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="35" column="12" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-18.125" vertical-offset="90" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/37signals/index.html">
+    <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="64" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.86410636" vertical-offset="165" max-vertical-offset="960">
+        <state line="51" column="1" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.2647059" vertical-offset="576" max-vertical-offset="3690">
           <folding />
         </state>
       </provider>
