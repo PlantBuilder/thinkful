@@ -215,6 +215,34 @@ hr {
     border: 0;
 }
 
+.overlay_one {
+    background: url('images/arrow-left.png') no-repeat;
+    z-index: 1;
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    margin-left: 425px;
+    margin-top: 275px;
+}
+.overlay_two {
+    background: url('images/arrow-left.png') no-repeat;
+    z-index: 1;
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 275px;
+}
+.overlay_three {
+    background: url('images/arrow-right.png') no-repeat;
+    z-index: 1;
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 275px;
+}
+
 /* Opt-in outside padding */
 .grid-pad {
     display: inline-block;

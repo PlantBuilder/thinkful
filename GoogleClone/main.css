@@ -50,6 +50,7 @@ table {
 #nav {
     background-color: #000;
     min-height: 33px;
+    white-space: nowrap;
 }
 
 #nav ul {
@@ -193,12 +194,13 @@ table {
     height: 30px;
     width: 100%;
     border-top: 1px solid #F1F1F1;
+    white-space: nowrap;
 }
 
 #footer ul {
     position: relative;
     float: right;
-    margin-right: 51px;
+    margin-left: 40%;
     padding: 3px 0px 5px 7px;
 
 }
