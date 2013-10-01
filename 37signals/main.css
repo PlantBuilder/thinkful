@@ -47,6 +47,10 @@ table {
     border-spacing: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 * {
 box-sizing(border-box);
 }
@@ -115,7 +119,14 @@ box-sizing(border-box);
    font-size: 40pt;
    font-weight: 600;
    text-align: center;
+   white-space: nowrap;
 }
+
+.hero span {
+    color: #336699;
+    text-decoration: underline;
+}
+
 .subtext {
 
     font-family: "Times New Roman", Times, serif;
@@ -124,9 +135,13 @@ box-sizing(border-box);
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .rappers_delight {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -135,6 +150,7 @@ box-sizing(border-box);
 .grid {
     overflow: hidden;
     background: white;
+    white-space: nowrap;
 }
 
 [   class*='col-'] {
@@ -146,18 +162,20 @@ box-sizing(border-box);
 }
 
 .col-1-3 {
-    display: inline-block;
+    white-space: nowrap;
+    display: inline;
     width: 180px;
     margin-right: 10px;
 }
 
 .module {
+    white-space: nowrap;
+    display: inline-table;
     height: 220px;
     padding: 10px;
     background: linear-gradient(#FFFFFF, #F0F0F0);
     border: 1px solid #E8E8E8;
     border-radius: 5px;
-
 }
 
 .module img {
@@ -201,6 +219,7 @@ box-sizing(border-box);
     color: #000000;
     text-align: center;
     margin-top: 0px;
+    white-space: normal;
 }
 
 .col-1-3:nth-child(2) h2 {
@@ -211,9 +230,18 @@ box-sizing(border-box);
 }
 
 hr {
-    background: url("images/img-hr.png") no-repeat 51%;;
+    background: url("images/img-hr.png") no-repeat 48%;
     height: 10px;
     border: 0;
+}
+
+#overlay {
+    position: absolute;
+    z-index: 100;
+    background: darkred;
+    height: 69px;
+    width: 69px;
+    display: none;
 }
 
 .overlay_one {
@@ -246,8 +274,10 @@ hr {
 
 /* Opt-in outside padding */
 .grid-pad {
+    min-width: 700px;
     display: inline-block;
-    padding: 20px 0 20px 50px;
+    padding: 20px 0 20px 60px;
+    margin-top: 10px;
     margin-bottom: 15px;
     [class*='col-']:last-of-type {
     padding-right: 20px;
