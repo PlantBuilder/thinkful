@@ -30,7 +30,7 @@ $(document).ready(function(){
             $("div.subtext").html('Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, <br>' +
             'what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise');
             $("div.subtext").css({'fontFamily':'arial','fontWeight':'500','fontSize':'11pt', 'marginTop': '17px','marginBottom':'16px'});
-            $("div.col-1-3").css({paddingTop: '3px'});
+            $("div.col-1-3").css({paddingTop: '2px'});
     });
     $(".module#three").mouseenter(function(){
         var offset = $(".module#three img").offset();
@@ -42,7 +42,7 @@ $(document).ready(function(){
         $("div.subtext").html('Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time <br>' +
             'private chat room. It\'s game changing. We couldn\'t run our own business without Campfire');
         $("div.subtext").css({'fontFamily':'arial','fontWeight':'500','fontSize':'11pt', 'marginTop': '17px','marginBottom':'16px'});
-        $("div.col-1-3").css({paddingTop: '3px'});
+        $("div.col-1-3").css({paddingTop: '2px'});
     });
     $(".module").mouseleave(function(){
         $("div.hero").html('Making collaboration productive and <br>' +
