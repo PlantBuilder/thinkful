@@ -50,3 +50,5 @@ app/config/parameters.ini
 /web/compiled/*
 
 ._*
+37signals/main2.css
+37signals/index2.html
