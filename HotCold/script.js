@@ -71,7 +71,7 @@ $(document).ready(function() {
             $( "#cheatDisplay" ).text( "Too Low." );
             $('#cold').addClass("highlightCold");
         } else {
-            $( "#cheatDisplay" ).text( "Just Right." );
+            $( "#cheatDisplay" ).text( "Just Right. Again...? (Click New Game)" );
             alert( "YOU WON!!!" );
         }
     });
