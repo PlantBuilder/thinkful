@@ -37,44 +37,10 @@ $(document).ready(function() {
 
     })();
 
-    // creates an array object to hold guesses.
-    var myArray = (function () {
-
-        var instance,
-            myProperty = new Array();
-
-        function getProperty () {
-            return myProperty;
-        }
-
-        function setProperty () {
-            myProperty = new Array();
-        }
-
-        function initialize () {
-            return {
-                get: getProperty,
-                set: setProperty
-            };
-        }
-
-        return {
-            getInstance: function () {
-
-                if ( !instance ) {
-                    instance = initialize();
-                }
-
-                return instance;
-            }
-        };
-
-    })();
 
   var currRandomNumber = myRandomNumber.getInstance();
-    var currArray = myArray.getInstance();
-    currArray[0] = 'foo';
-    $( "#test" ).text( currArray[0] );
+
+    $( "#test" ).text( currRandomNumber.get() );
 
     $( "#cheatDisplay" ).text( "Please click \"Guess\"." );
 
@@ -82,13 +48,14 @@ $(document).ready(function() {
         currRandomNumber.set();
         $('#cheatDisplay').empty();
         $( "#cheatDisplay" ).text( "Please click \"Guess\"." );
+        $('li').remove();
        // TODO Comment out when finished. test stuff.
 //       $( "p" ).empty();
 //       $( "p" ).text( currRandomNumber.get() );
     });
 
     $("#guess").click(function () {
-        var success, num;
+        var success, num, txt;
         num =  +(currRandomNumber.get());
         success = +(prompt("Enter a number between 1 & 100:", "..."));
         $('#cheatDisplay').empty();
@@ -102,12 +69,15 @@ $(document).ready(function() {
             $( "#cheatDisplay" ).text( "Too High." );
             $('#hot').addClass("highlightHot");
         }  else if (success < num){
-            $( "#cheatDisplay" ).text( "Too Low." );
+            txt =  "Too Low."
+            $( "#cheatDisplay" ).text( txt );
             $('#cold').addClass("highlightCold");
         } else {
             $( "#cheatDisplay" ).text( "Just Right. Again...? (Click New Game)" );
             alert( "YOU WON!!!" );
         }
+        var count = $("ul li").length +1;
+        $('.ul_current').append('<li> Guess ' + count + ': ' + success + ' (' + txt + ')');
     });
 
     $("#cheat").click(function () {

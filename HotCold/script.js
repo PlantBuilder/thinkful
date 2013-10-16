@@ -37,42 +37,51 @@ $(document).ready(function() {
 
     })();
 
-  var currRandomNumber = myRandomNumber.getInstance();
-    $( "#cheatDisplay" ).text( "Please click \"Guess\"." );
+    var currRandomNumber = myRandomNumber.getInstance();
+    var $cheatDisplay = $('#cheatDisplay');
+    $cheatDisplay .text( "Please click \"Guess\"." );
 
     $("#newGame").click(function () {
         currRandomNumber.set();
-        $('#cheatDisplay').empty();
-        $( "#cheatDisplay" ).text( "Please click \"Guess\"." );
+        $cheatDisplay.empty();
+        $cheatDisplay.text( "Please click \"Guess\"." );
        // TODO Comment out when finished. test stuff.
 //       $( "p" ).empty();
 //       $( "p" ).text( currRandomNumber.get() );
     });
 
     $("#guess").click(function () {
-        var success, num;
+        var success, num, txt;
+        var $hot = $('#hot');
+        var $cold = $('#cold');
+        var $cheatDisplay = $('#cheatDisplay');
         num =  +(currRandomNumber.get());
         success = +(prompt("Enter a number between 1 & 100:", "..."));
-        $('#cheatDisplay').empty();
-        $('#hot').removeClass();
-        $('#cold').removeClass();
+        $cheatDisplay.empty();
+        $hot.removeClass();
+        $cold.removeClass();
         if(isNaN(success)) {
-            $( "#cheatDisplay" ).text( "NUMBER please." );
+            txt =  "NUMBER please.";
         } else if(success > 100 || success < 1) {
-            $( "#cheatDisplay" ).text( "Between 1 and 100 please." );
+            txt = "Between 1 and 100 please.";
         } else if(success > num) {
-            $( "#cheatDisplay" ).text( "Too High." );
-            $('#hot').addClass("highlightHot");
-        }  else if (success < num){
-            $( "#cheatDisplay" ).text( "Too Low." );
-            $('#cold').addClass("highlightCold");
-        } else {
-            $( "#cheatDisplay" ).text( "Just Right. Again...? (Click New Game)" );
+            txt =  "Too High.";
+            $hot.addClass("highlightHot");
+        }  else {
+            txt = "Too Low.";
+            $cold.addClass("highlightCold");
+        }
+        if(success == num) {
+            $cold.removeClass();
+            $cheatDisplay.text( "Just Right. Again...? (Click New Game)" );
             alert( "YOU WON!!!" );
+        } else {
+            $cheatDisplay.text( txt );
         }
     });
 
     $("#cheat").click(function () {
+        var $cheatDisplay = $('#cheatDisplay');
         var goal = currRandomNumber.get();
         function find(start, history) {
             if (start == goal)
@@ -84,9 +93,9 @@ $(document).ready(function() {
                     find(start * 3, "(" + history + " * 3)");
         }
             if(find(1, "1")) {
-                $('#cheatDisplay').text(find(1, "1"));
+                $cheatDisplay.text(find(1, "1"));
             } else {
-                $('#cheatDisplay').text("You are on your own.");
+                $cheatDisplay.text("You are on your own.");
             }
     });
 
