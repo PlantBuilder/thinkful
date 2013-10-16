@@ -1,0 +1,21 @@
+
+#cheatDisplay
+{
+    margin-bottom: 41px;
+}
+
+.highlightHot
+{
+    color: red;
+}
+
+.highlightCold
+{
+    color: blue;
+}
+
+.highlightOff
+{
+    color: black;
+}
+

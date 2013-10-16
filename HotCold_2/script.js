@@ -37,7 +37,45 @@ $(document).ready(function() {
 
     })();
 
+    // creates an array object to hold guesses.
+    var myArray = (function () {
+
+        var instance,
+            myProperty = new Array();
+
+        function getProperty () {
+            return myProperty;
+        }
+
+        function setProperty () {
+            myProperty = new Array();
+        }
+
+        function initialize () {
+            return {
+                get: getProperty,
+                set: setProperty
+            };
+        }
+
+        return {
+            getInstance: function () {
+
+                if ( !instance ) {
+                    instance = initialize();
+                }
+
+                return instance;
+            }
+        };
+
+    })();
+
   var currRandomNumber = myRandomNumber.getInstance();
+    var currArray = myArray.getInstance();
+    currArray[0] = 'foo';
+    $( "#test" ).text( currArray[0] );
+
     $( "#cheatDisplay" ).text( "Please click \"Guess\"." );
 
     $("#newGame").click(function () {
