@@ -164,7 +164,7 @@ li:last-child {
 #guessEntry {
     margin-right: 8px;
     text-align: left;
-    width: 118px;
+    width: 119px;
     border: 1px solid #BBB;
     font-size: 27pt;
     vertical-align: bottom;
@@ -199,6 +199,10 @@ li:last-child {
     margin-bottom: 10px;
 }
 
+#btn_cheat:hover {
+    color: #F5F5F5;
+}
+
 #btn_newGame {
     margin-top: 10px;
     font-size: 18px;
@@ -212,12 +216,15 @@ li:last-child {
     border-radius: 5px;
 }
 
+#btn_newGame:hover {
+    color: #F5F5F5;
+}
+
 [id*="btn_"]:focus {
     outline: none;
     border: 1px solid #BBBBBB;
     box-shadow: none;
 }
-
 
 #cheatDisplay
 {

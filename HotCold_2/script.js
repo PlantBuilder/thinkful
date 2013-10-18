@@ -111,12 +111,9 @@ $(document).ready(function() {
         $('#infoDisplay').hide();
         $cheatDisplay.empty();
         $cheatDisplay.show();
-        if(isNaN(success)) {
-            txt =  "NUMBER please.";
-        } else if(success > 100 || success < 1) {
-            txt = "Between 1 and 100 please.";
-       // if its the first time through (count == 0) Just give the appropriate
-       // response from response[0]
+        if(success > 100 || success < 1) {
+            txt = "Between 1 and 100.";
+       // create a response
         }  else {
             txt =  responseTxt((success-num), count)
         }
@@ -150,6 +147,18 @@ $(document).ready(function() {
         } else {
             $cheatDisplay.text("You are on your own.");
         }
+    });
+
+    $("#guessEntry").on( "keypress", function (event) {
+        var which = event.which;
+        if(which < 48 || which > 57){
+            event.preventDefault();
+        }
+        if(which == 13) {
+            $( "#btn_guess" ).click();
+ //           console.log("keypress: " + which);
+        }
+
     });
 
     function responseTxt(diff, count){
