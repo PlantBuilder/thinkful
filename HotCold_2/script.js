@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-
+        // singleton design pattern
         var myRandomNumber = (function () {
 
         var instance,
@@ -71,12 +71,15 @@ $(document).ready(function() {
     var response = currResponseArray.get()
     var $cheatDisplay =  $( "#cheatDisplay" );
     $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
-
     $("#btn_newGame").click(function () {
         var $cheatDisplay =  $( "#cheatDisplay" );
+        var $btn_guess =  $("#btn_guess");
+        var $btn_newGame = $("#btn_newGame");
         currRandomNumber.set();
         $cheatDisplay.empty();
         document.getElementById("guessEntry").value = '';
+        $btn_guess.animate({color: '#F5F5F5'}, 1000);
+        $btn_newGame.animate({color: '#BBBBBB'}, 1000);
         $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
         $('li').remove();
     });
@@ -96,11 +99,14 @@ $(document).ready(function() {
 
     $("#btn_guess").click(function () {
         var success, num, txt, count;
-        var $hot = $('#hot');
-        var $cold = $('#cold');
         var $cheatDisplay = $('#cheatDisplay');
+        var $btn_guess =  $("#btn_guess");
+        var $btn_newGame = $("#btn_newGame");
+        // grab the random number
         num =  +(currRandomNumber.get());
+        //grab the entered value
         success = +(document.getElementById("guessEntry").value);
+        // is this the first guess?
         count = $("ul li").length;
         $('#infoDisplay').hide();
         $cheatDisplay.empty();
@@ -115,7 +121,10 @@ $(document).ready(function() {
             txt =  responseTxt((success-num), count)
         }
         if(success == num) {
-            $cheatDisplay.text( "YOU WON! Play again? (Click \"New Game\")" );
+            $cheatDisplay.text( "YOU WON! Play again?" );
+            // que player to choose New Game...
+            $btn_guess.animate({color: '#BBBBBB'}, 1000);
+            $btn_newGame.animate({color: '#F5F5F5'}, 1000);
         } else {
             $cheatDisplay.text( txt );
         }
@@ -124,6 +133,7 @@ $(document).ready(function() {
     });
 
     $("#btn_cheat").click(function () {
+        // stolen from Eloquent Javascript exercises
         var $cheatDisplay = $('#cheatDisplay');
         var goal = currRandomNumber.get();
         function find(start, history) {
@@ -147,7 +157,7 @@ $(document).ready(function() {
         if(diff < 0){
             diff = diff*-1
         }
-
+        // couldn't get a switch to work here
         if (diff <= 10) {
             ary = 5;
         } else if (diff <= 25) {
@@ -165,11 +175,11 @@ $(document).ready(function() {
         }
 
     if(!(response[1].length)) {
-        // if it the first guess
+        // if it the first guess just the first bit.
         response[1][0] = diff;
         return response[0][ary];
     } else {
-        // let them know they are moving in the right direction.
+        // let them know they are moving in the right/wrong direction.
         response[1][count] = diff;
         $( "#test2" ).text( response[1][count-1] );
         if (diff < response[1][count-1]) {
