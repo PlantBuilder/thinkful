@@ -154,7 +154,7 @@ $(document).ready(function() {
         if(which < 48 || which > 57){
             event.preventDefault();
         }
-        if(which == 13) {
+        if(which == 13 && document.getElementById("guessEntry").value) {
             $( "#btn_guess" ).click();
  //           console.log("keypress: " + which);
         }

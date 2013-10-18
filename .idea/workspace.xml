@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotCold_2/main.css" afterPath="$PROJECT_DIR$/HotCold_2/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotCold_2/script.js" afterPath="$PROJECT_DIR$/HotCold_2/script.js" />
     </list>
     <ignored path="thinkful.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="70" selection-start="3307" selection-end="3307" vertical-scroll-proportion="0.0" vertical-offset="1371" max-vertical-offset="3105">
+            <state line="163" column="64" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="3105">
               <folding />
             </state>
           </provider>
@@ -76,8 +75,8 @@
         <option value="$PROJECT_DIR$/HotCold/script.js" />
         <option value="$PROJECT_DIR$/HotCold_2/test.html" />
         <option value="$PROJECT_DIR$/HotCold_2/index.html" />
-        <option value="$PROJECT_DIR$/HotCold_2/script.js" />
         <option value="$PROJECT_DIR$/HotCold_2/main.css" />
+        <option value="$PROJECT_DIR$/HotCold_2/script.js" />
       </list>
     </option>
   </component>
@@ -407,16 +406,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
+    <entry file="file://$PROJECT_DIR$/HotCold_2/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="70" selection-start="3307" selection-end="3307" vertical-scroll-proportion="0.0" vertical-offset="1371" max-vertical-offset="3105">
+        <state line="166" column="14" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.0" vertical-offset="2253" max-vertical-offset="3585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/main.css">
+    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="14" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.0" vertical-offset="2253" max-vertical-offset="3585">
+        <state line="163" column="64" selection-start="4822" selection-end="4822" vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="3105">
           <folding />
         </state>
       </provider>
