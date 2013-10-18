@@ -5,15 +5,24 @@
     <meta charset="utf-8" />
     <title>Hot Cold</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body class="normal">
-<h1><span id="hot">Hot</span> or <span id="cold">Cold</span></h1>
-<div id="cheatDisplay"></div>
-<button id="guess">Guess</button>
-<button id="cheat">Cheat</button>
-<button id="newGame">New Game</button>
-<ul class="ul_current"></ul>
+<h1><span>Hot</span> or <span>Cold</span><div class="icon-circle-question-mark"></div></h1>
+<h3 id="cheatDisplay"></h3>
+<h5 id="infoDisplay" class="hidden">Categories are Freezing, Cold, Cool, Warm, Hot, and Boiling. Within categories, 'getting warmer' is a good thing.<span class="icon-remove"></span></h5>
+    <div class="table">
+    <input type="search" id="guessEntry" name="guessInput" />
+    <button id="btn_guess">Guess</button>
+        <div>
+        <button id="btn_newGame">New Game</button>
+        <button id="btn_cheat">Cheat</button>
+        </div>
+    </div>
+<div class="table">
+    <ul class="ul_current"></ul>
+</div>
 </body>
 </html>
