@@ -46,9 +46,14 @@ $(document).ready(function() {
             return myArray;
         }
 
+        function setArray () {
+            myArray = [['Freezing','Cold','Cool','Warm','Hot','Boiling'],[]];
+        }
+
         function initialize () {
             return {
-                get: getArray
+                get: getArray,
+                set: setArray
             };
         }
 
@@ -68,14 +73,16 @@ $(document).ready(function() {
 
     var currRandomNumber = myRandomNumber.getInstance();
     var currResponseArray = responseArray.getInstance();
-    var response = currResponseArray.get()
+    var response = currResponseArray.get();
     var $cheatDisplay =  $( "#cheatDisplay" );
     $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
+
     $("#btn_newGame").click(function () {
         var $cheatDisplay =  $( "#cheatDisplay" );
         var $btn_guess =  $("#btn_guess");
         var $btn_newGame = $("#btn_newGame");
         currRandomNumber.set();
+        response[1]=[];
         $cheatDisplay.empty();
         document.getElementById("guessEntry").value = '';
         $btn_guess.animate({color: '#F5F5F5'}, 1000);
