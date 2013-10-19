@@ -204,6 +204,7 @@ li.winner {
     border: 1px solid #BBBBBB;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-left: 2px;
 }
 
 #btn_cheat:hover {
