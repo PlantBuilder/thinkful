@@ -169,9 +169,9 @@ li.winner {
 }
 
 #guessEntry {
-    margin-right: 8px;
+    margin-right: 9px;
     text-align: left;
-    width: 119px;
+    width: 117px;
     border: 1px solid #BBB;
     font-size: 27pt;
     vertical-align: bottom;
