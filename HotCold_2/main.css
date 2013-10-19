@@ -137,6 +137,13 @@ li:last-child {
     margin-bottom: 40px;
 }
 
+li.winner {
+    background-color: gray;
+    border: 0;
+    font-size: 14px;
+    padding-top: 18px;
+}
+
 [class^="icon-"], [class*="icon-"] {
     background-image: url("glyphicons-halflings.png");
     background-position: 16px 16px;

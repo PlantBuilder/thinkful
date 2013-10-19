@@ -78,25 +78,30 @@ $(document).ready(function() {
     $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
 
     $("#btn_newGame").click(function () {
-        var $cheatDisplay =  $( "#cheatDisplay" );
-        var $btn_guess =  $("#btn_guess");
-        var $btn_newGame = $("#btn_newGame");
+        var $cheatDisplay = $( "#cheatDisplay" );
+        var $btn_guess =    $( "#btn_guess" );
+        var $btn_newGame =  $( "#btn_newGame" );
+        // create a new random number
         currRandomNumber.set();
+        //clean out the previous game's data
         response[1]=[];
         $cheatDisplay.empty();
         document.getElementById("guessEntry").value = '';
+        $('li').remove();
+        // reset the color on buttons
         $btn_guess.animate({color: '#F5F5F5'}, 1000);
         $btn_newGame.animate({color: '#BBBBBB'}, 1000);
+        // and set the text to begin game.
         $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
-        $('li').remove();
     });
-    // get some info on the game.
+
+    // ICONS: get some info on the game.
     $(".icon-circle-question-mark").click(function () {
         var $cheatDisplay =  $( "#cheatDisplay" );
         $cheatDisplay.hide();
         $( "#infoDisplay").show();
     });
-    // put the info away.
+    // ICONS: put the info away.
     $(".icon-remove").click(function () {
         var $cheatDisplay =  $( "#cheatDisplay" );
         $( "#infoDisplay").hide();
@@ -106,9 +111,10 @@ $(document).ready(function() {
 
     $("#btn_guess").click(function () {
         var success, num, txt, count;
-        var $cheatDisplay = $('#cheatDisplay');
-        var $btn_guess =  $("#btn_guess");
-        var $btn_newGame = $("#btn_newGame");
+        var $cheatDisplay = $( '#cheatDisplay' );
+        var $btn_guess =    $( '#btn_guess' );
+        var $btn_newGame =  $( '#btn_newGame' );
+        var $ul_current =   $( '.ul_current' );
         // grab the random number
         num =  +(currRandomNumber.get());
         //grab the entered value
@@ -124,16 +130,20 @@ $(document).ready(function() {
         }  else {
             txt =  responseTxt((success-num), count)
         }
+        count = count+1;
         if(success == num) {
             $cheatDisplay.text( "YOU WON! Play again?" );
+            $ul_current.prepend( '<li class="winner"> #' + count + ': ' + success + ' YOU WON!' );
             // que player to choose New Game...
             $btn_guess.animate({color: '#BBBBBB'}, 1000);
             $btn_newGame.animate({color: '#F5F5F5'}, 1000);
+            // changed the look to make it more visible.
+
         } else {
             $cheatDisplay.text( txt );
+            // Descending Order: I changed to 'prepend' as it is easier to read 'li' when current one is on top
+            $ul_current.prepend( '<li> #' + count + ': ' + success + ' (' + txt + ')' );
         }
-        count = count+1;
-        $('.ul_current').append('<li> #' + count + ': ' + success + ' (' + txt + ')');
     });
 
     $("#btn_cheat").click(function () {
@@ -157,10 +167,12 @@ $(document).ready(function() {
     });
 
     $("#guessEntry").on( "keypress", function (event) {
+        // prevent non numerals from being entered
         var which = event.which;
         if(which < 48 || which > 57){
             event.preventDefault();
         }
+        // allow user to use 'Enter Key' to trigger guess
         if(which == 13 && document.getElementById("guessEntry").value) {
             $( "#btn_guess" ).click();
  //           console.log("keypress: " + which);
@@ -191,7 +203,7 @@ $(document).ready(function() {
         }
 
     if(!(response[1].length)) {
-        // if it the first guess just the first bit.
+        // if it the first guess just the category.
         response[1][0] = diff;
         return response[0][ary];
     } else {
