@@ -196,7 +196,7 @@ li.winner {
 #btn_cheat {
     font-size: 18px;
     font-weight: lighter;
-    padding: 12px;
+    padding: 12px 13px;
     display: inline-block;
     position: relative;
     background-color: gray;
