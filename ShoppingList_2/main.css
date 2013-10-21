@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 100%;
+}
+
+h1 {
+    background: #996699;
+    border-top: 1px solid #663366;
+    border-left: 1px solid #663366;
+    border-right: 1px solid #663366;
+    border-bottom: 0;
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    background: #996699;
+    border-left: 1px solid #663366;
+    border-right: 1px solid #663366;
+    border-bottom: 1px solid #663366;
+    border-top: 0;
+    color: gray;
+    font-size: 18px;
+    margin: 0 auto;
+    min-height: 20px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    min-width: 200px;
+    text-align: center;
+}
+
+li {
+    background-color: #669966;
+    border-bottom: 1px solid darkgreen;
+    border-left: 1px solid darkgreen;
+    border-right: 1px solid darkgreen;
+    color: whitesmoke;
+    display: list-item;
+    font-size: 18px;
+    height: 32px;
+    padding: 20px;
+    text-align: left;
+    vertical-align: bottom;
+    width: 480px;
+}
+
+.checked {
+    background-color: #999999;
+    color: #BBBBBB;
+}
+
+li div {
+    float: right;
+    text-align: right;
+}
+
+li:last-child {
+    margin-bottom: 40px;
+}
+
+[class^="icon-"], [class*="icon-"] {
+    background-image: url("glyphicons-halflings-white.png");
+    background-position: 16px 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: text-top;
+    width: 16px;
+}
+
+[class*="icon-"]:hover {
+    background-image: url("glyphicons-halflings.png");
+}
+
+.icon-remove{
+    background-position: -166px -97px;
+    margin: 10px;
+}
+
+#listEntry {
+    background-color: #999966;
+    border: 1px solid #BBB;
+    font-size: 18pt;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 450px;
+
+
+
+}
+#listEntry:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}

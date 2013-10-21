@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ShoppingList/script.js" afterPath="$PROJECT_DIR$/ShoppingList/shoppinglist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotCold_2/index.html" afterPath="$PROJECT_DIR$/HotCold_2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotCold_2/main.css" afterPath="$PROJECT_DIR$/HotCold_2/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,39 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="38" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="3390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="20" selection-start="967" selection-end="967" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <marker date="1382100603000" expanded="true" signature="318:655" placeholder="&lt;xml/&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingList/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="16" column="82" selection-start="514" selection-end="514" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HotCold_2/main.css">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_2/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="125" selection-start="3734" selection-end="3734" vertical-scroll-proportion="0.3319672" vertical-offset="2697" max-vertical-offset="3690">
+            <state line="46" column="50" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.94520545" vertical-offset="0" max-vertical-offset="2625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="25" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -84,15 +76,22 @@
         <option value="$PROJECT_DIR$/HotCold/script.js" />
         <option value="$PROJECT_DIR$/HotCold_2/test.html" />
         <option value="$PROJECT_DIR$/HotCold_2/script.js" />
-        <option value="$PROJECT_DIR$/HotCold_2/index.html" />
         <option value="$PROJECT_DIR$/ShoppingList/script.js" />
+        <option value="$PROJECT_DIR$/ShoppingList/shoppinglist.js" />
+        <option value="$PROJECT_DIR$/HotCold_2/index.html" />
         <option value="$PROJECT_DIR$/HotCold_2/main.css" />
+        <option value="$PROJECT_DIR$/ShoppingList/index.html" />
+        <option value="$PROJECT_DIR$/ShoppingList/shoppinglist.css" />
+        <option value="/HTML Fragment (script.js:1201).html" />
+        <option value="$PROJECT_DIR$/ShoppingList_2/index.html" />
+        <option value="$PROJECT_DIR$/ShoppingList_2/script.js" />
+        <option value="$PROJECT_DIR$/ShoppingList_2/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="143" />
+    <option name="x" value="59" />
+    <option name="y" value="97" />
     <option name="width" value="1436" />
     <option name="height" value="878" />
   </component>
@@ -144,6 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ShoppingList" />
+              <option name="myItemId" value="ShoppingList_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,7 +192,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,8 +199,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -215,6 +214,14 @@
     </servers>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -223,14 +230,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -272,26 +271,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="143" width="1436" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="59" y="97" width="1436" height="878" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24316546" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24316546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24316546" sideWeight="0.6701847" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -307,16 +306,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24316546" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24316546" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24316546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -333,41 +332,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
-          <folding>
-            <marker date="1382100603000" expanded="true" signature="318:655" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="4" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
-          <folding>
-            <marker date="1382100603000" expanded="true" signature="318:655" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1470" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotCold/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="2246" selection-end="2293" vertical-scroll-proportion="0.8739496" vertical-offset="621" max-vertical-offset="1605" />
@@ -403,32 +367,53 @@
         <state line="19" column="0" selection-start="429" selection-end="521" vertical-scroll-proportion="0.40254238" vertical-offset="0" max-vertical-offset="708" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
+    <entry file="file://$PROJECT_DIR$/ShoppingList/shoppinglist.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="38" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.0" vertical-offset="1848" max-vertical-offset="3390">
-          <folding />
-        </state>
+        <state line="75" column="21" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="775" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
+    <entry file="file://$PROJECT_DIR$/ShoppingList/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="967" selection-end="967" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <marker date="1382100603000" expanded="true" signature="318:655" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
+        <state line="9" column="26" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList/script.js">
+    <entry file="file://$PROJECT_DIR$/ShoppingList/shoppinglist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
-          <folding />
-        </state>
+        <state line="75" column="64" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1815" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HotCold_2/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="125" selection-start="3734" selection-end="3734" vertical-scroll-proportion="0.3319672" vertical-offset="2697" max-vertical-offset="3690">
+        <state line="111" column="0" selection-start="2195" selection-end="2240" vertical-scroll-proportion="0.44672132" vertical-offset="1338" max-vertical-offset="3690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="149" selection-start="573" selection-end="606" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="38" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.186722" vertical-offset="2070" max-vertical-offset="3390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="25" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="82" selection-start="514" selection-end="514" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_2/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="50" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.94520545" vertical-offset="0" max-vertical-offset="2625">
           <folding />
         </state>
       </provider>
