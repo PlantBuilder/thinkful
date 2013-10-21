@@ -31,8 +31,8 @@ $(document).ready(function () {
 
     $(document).on('click', "input:checkbox", function () {
         if($(this).prop('checked') == true) {
-        console.log('This is checked');
-        $("li").addClass('checked');
+        // console.log('This is checked');
+        $(this).parent().addClass('checked');
         } else {
             $("li").removeClass('checked');
         }
