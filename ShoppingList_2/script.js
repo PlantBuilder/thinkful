@@ -57,8 +57,10 @@ $(document).ready(function () {
             if(jQuery.trim(inp).length > 0) {
             $('.ul_current').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
             document.getElementById("listEntry").value = '';
-            }
             return false;
+            } else {
+            event.preventBubble();
             }
+        }
     });
 });
