@@ -13,7 +13,7 @@
     <h1>Shopping List</h1>
     <h2> <div class="table">
             <form>
-                <input required="required" type="text" id="listEntry" name="listInput" autocomplete="off" placeholder="Don't forget the..."/>
+                <input required="required" pattern="^(?:(?!\s{2}).)*$" autofocus type="text" id="listEntry" name="listInput" autocomplete="off" placeholder="Don't forget the..."/>
             </form>
         </div>
    </h2>
