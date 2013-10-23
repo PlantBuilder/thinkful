@@ -1,6 +1,11 @@
 /**
  * Created by jim on 10/21/13.
  */
+
+$(function  () {
+    $("ul.sortable").sortable()
+})
+
 $(document).ready(function () {
     // delete parent icon
     $(document).on('click', '.icon-remove', function () {
@@ -22,7 +27,7 @@ $(document).ready(function () {
             var inp = $("#listEntry").val();
             if(jQuery.trim(inp).length > 0) {
             // too much going on here. Should be tucked away into a function to be called.
-            $('.ul_current').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
+            $('.sortable').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
             document.getElementById("listEntry").value = '';
             return false;
             }
