@@ -14,7 +14,7 @@ $(document).ready(function () {
             $("li").removeClass('checked');
         }
     });
-
+    // build the li
     $("#listEntry").on("keypress", function (event) {
         // allow user to use 'Enter Key' to trigger guess
         var which = event.which;

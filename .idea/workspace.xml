@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/check_radio_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery-2.0.3.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery.color.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery.qtip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery.qtip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ShoppingList_2/test.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/index.html" afterPath="$PROJECT_DIR$/ShoppingList_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/main.css" afterPath="$PROJECT_DIR$/ShoppingList_2/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/script.js" afterPath="$PROJECT_DIR$/ShoppingList_2/script.js" />
     </list>
     <ignored path="thinkful.iws" />
@@ -30,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="135" selection-start="584" selection-end="584" vertical-scroll-proportion="0.34532374" vertical-offset="0" max-vertical-offset="695">
+            <state line="13" column="56" selection-start="389" selection-end="389" vertical-scroll-proportion="0.28057554" vertical-offset="0" max-vertical-offset="695">
               <folding />
             </state>
           </provider>
@@ -48,7 +54,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="119" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="16" column="19" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -185,6 +191,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HotCold_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoogleClone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,11 +376,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="1099" selection-end="1157" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="780" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoogleClone/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="4" selection-start="2948" selection-end="2962" vertical-scroll-proportion="-0.7008197" vertical-offset="2958" max-vertical-offset="3690" />
@@ -410,14 +425,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="119" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="16" column="19" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleClone/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="186" selection-end="257" vertical-scroll-proportion="0.059322033" vertical-offset="48" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="135" selection-start="584" selection-end="584" vertical-scroll-proportion="0.34532374" vertical-offset="0" max-vertical-offset="695">
+        <state line="13" column="56" selection-start="389" selection-end="389" vertical-scroll-proportion="0.28057554" vertical-offset="0" max-vertical-offset="695">
           <folding />
         </state>
       </provider>
