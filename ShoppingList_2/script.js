@@ -2,14 +2,14 @@
  * Created by jim on 10/21/13.
  */
 
-$(function  () {
-    $("ul.sortable").sortable()
-})
-
 $(document).ready(function () {
+    $(function  () {
+        $("ul.sortable").sortable()
+    })
     // delete parent icon
     $(document).on('click', '.icon-remove', function () {
-        $(this).parent().remove();
+        $minusOne.trigger('click') //$minusOne.click();
+        $(this).parent(1).remove();
     });
     // change the look of the done items.
     $(document).on('click', "input:checkbox", function () {
@@ -26,6 +26,7 @@ $(document).ready(function () {
         if (which == 13) {
             var inp = $("#listEntry").val();
             if(jQuery.trim(inp).length > 0) {
+            $plusOne.trigger('click');
             // too much going on here. Should be tucked away into a function to be called.
             $('.sortable').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
             document.getElementById("listEntry").value = '';
@@ -33,4 +34,23 @@ $(document).ready(function () {
             }
         }
     });
+    // try out badges
+    var badge = 0;
+    var favicon = new Favico({
+        animation : 'popFade'
+    });
+
+    var $plusOne = $('#plusOne').on('click',(function() {
+        badge = badge + 1;
+        favicon.badge(badge);
+    }));
+    var $minusOne = $('#minusOne').on('click', (function() {
+        badge = (badge-1 < 0) ? 0 : (badge - 1);
+        favicon.badge(badge);
+    }));
+    var $reset = $('#reset').click(function() {
+        favicon.reset();
+    });
+    //intial value
+    favicon.badge(badge);
 });

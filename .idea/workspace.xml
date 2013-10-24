@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/index.html" afterPath="$PROJECT_DIR$/ShoppingList_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/main.css" afterPath="$PROJECT_DIR$/ShoppingList_2/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/script.js" afterPath="$PROJECT_DIR$/ShoppingList_2/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/thinkful.iml" afterPath="$PROJECT_DIR$/.idea/thinkful.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
@@ -32,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="498" selection-end="498" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="28" column="34" selection-start="857" selection-end="857" vertical-scroll-proportion="-16.125" vertical-offset="33" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -41,7 +39,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="46" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="2970">
+            <state line="183" column="46" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="2441" max-vertical-offset="2970">
               <folding />
             </state>
           </provider>
@@ -50,7 +48,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="71" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4509018" vertical-offset="0" max-vertical-offset="615">
+            <state line="17" column="66" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4750499" vertical-offset="51" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -59,10 +57,8 @@
       <file leaf-file-name="jquery-sortable.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShoppingList_2/jquery-sortable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="570" column="82" selection-start="22859" selection-end="22859" vertical-scroll-proportion="0.0" vertical-offset="8390" max-vertical-offset="9180">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="570" column="82" selection-start="22859" selection-end="22859" vertical-scroll-proportion="0.0" vertical-offset="8550" max-vertical-offset="9180">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,15 +93,15 @@
         <option value="/HTML Fragment (script.js:1201).html" />
         <option value="$PROJECT_DIR$/GoogleClone/index.html" />
         <option value="$PROJECT_DIR$/ShoppingList_2/jquery-sortable.js" />
-        <option value="$PROJECT_DIR$/ShoppingList_2/index.html" />
         <option value="$PROJECT_DIR$/ShoppingList_2/main.css" />
+        <option value="$PROJECT_DIR$/ShoppingList_2/index.html" />
         <option value="$PROJECT_DIR$/ShoppingList_2/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="53" />
+    <option name="x" value="4" />
+    <option name="y" value="94" />
     <option name="width" value="1436" />
     <option name="height" value="660" />
   </component>
@@ -157,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,50 +171,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShoppingList_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HotCold_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoogleClone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +181,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -305,8 +259,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="53" width="1436" height="660" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="94" width="1436" height="660" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -429,29 +383,27 @@
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/jquery-sortable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="570" column="82" selection-start="22859" selection-end="22859" vertical-scroll-proportion="0.0" vertical-offset="8390" max-vertical-offset="9180">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="46" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="2398" max-vertical-offset="2970">
+        <state line="183" column="46" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="2441" max-vertical-offset="2970">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="498" selection-end="498" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="28" column="34" selection-start="857" selection-end="857" vertical-scroll-proportion="-16.125" vertical-offset="33" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="71" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4509018" vertical-offset="0" max-vertical-offset="615">
+        <state line="17" column="66" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4750499" vertical-offset="51" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
