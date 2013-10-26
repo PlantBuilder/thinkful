@@ -74,65 +74,59 @@ $(document).ready(function() {
     var currRandomNumber = myRandomNumber.getInstance();
     var currResponseArray = responseArray.getInstance();
     var response = currResponseArray.get();
-    var $cheatDisplay =  $( "#cheatDisplay" );
-    $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
+    var $sub            =  $( "#sub-header" );
+    var $info           =  $( "#info");
+    var $btn_guess      =  $( "#btn_guess" );
+    var $btn_newGame    =  $( "#btn_newGame" );
+    var $ul_current     =  $( '.ul_current' );
+    $sub.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
 
-    $("#btn_newGame").click(function () {
-        var $cheatDisplay = $( "#cheatDisplay" );
-        var $btn_guess =    $( "#btn_guess" );
-        var $btn_newGame =  $( "#btn_newGame" );
+    $btn_newGame.click(function () {
         // create a new random number
         currRandomNumber.set();
         //clean out the previous game's data
         response[1]=[];
-        $cheatDisplay.empty();
+        $sub.empty();
         document.getElementById("guessEntry").value = '';
-        $('li').remove();
+        $ul_current.empty();
         // reset the color on buttons
         $btn_guess.animate({color: '#F5F5F5'}, 1000);
         $btn_newGame.animate({color: '#BBBBBB'}, 1000);
         // and set the text to begin game.
-        $cheatDisplay.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
+        $sub.text( "Enter a number between 1 and 100. Then click \"Guess\"." );
     });
 
     // ICONS: get some info on the game.
     $(".icon-circle-question-mark").click(function () {
-        var $cheatDisplay =  $( "#cheatDisplay" );
-        $cheatDisplay.hide();
-        $( "#infoDisplay").show();
+        $sub.hide();
+        $info.show();
     });
     // ICONS: put the info away.
     $(".icon-remove").click(function () {
-        var $cheatDisplay =  $( "#cheatDisplay" );
-        $( "#infoDisplay").hide();
-        $cheatDisplay.show();
+        $info.hide();
+        $sub.show();
 
     });
 
-    $("#btn_guess").click(function () {
+    $btn_guess.click(function () {
         var success, num, txt, count;
-        var $cheatDisplay = $( '#cheatDisplay' );
-        var $btn_guess =    $( '#btn_guess' );
-        var $btn_newGame =  $( '#btn_newGame' );
-        var $ul_current =   $( '.ul_current' );
         // grab the random number
         num =  +(currRandomNumber.get());
         //grab the entered value
         success = +(document.getElementById("guessEntry").value);
         // is this the first guess?
-        count = $("ul li").length;
-        $('#infoDisplay').hide();
-        $cheatDisplay.empty();
-        $cheatDisplay.show();
-        if(success > 100 || success < 1) {
-            txt = "Between 1 and 100.";
-       // create a response
-        }  else {
-            txt =  responseTxt((success-num), count)
+        count = $("li").length;
+        $info.hide();
+        $sub.empty();
+        $sub.show();
+        if (success > 100 || success < 1) {
+            txt =  "Between 1 and 100.";
+        } else {
+            txt = responseTxt((success - num), count);
         }
         count = count+1;
         if(success == num) {
-            $cheatDisplay.text( "YOU WON! Play again?" );
+            $sub.text( "YOU WON! Play again?" );
             $ul_current.prepend( '<li class="winner"> #' + count + ': ' + success + ' YOU WON!' );
             // que player to choose New Game...
             $btn_guess.animate({color: '#BBBBBB'}, 1000);
@@ -140,7 +134,7 @@ $(document).ready(function() {
             // changed the look to make it more visible.
 
         } else {
-            $cheatDisplay.text( txt );
+            $sub.text( txt );
             // Descending Order: I changed to 'prepend' as it is easier to read 'li' when current one is on top
             $ul_current.prepend( '<li> #' + count + ': ' + success + ' (' + txt + ')' );
         }
@@ -148,7 +142,6 @@ $(document).ready(function() {
 
     $("#btn_cheat").click(function () {
         // stolen from Eloquent Javascript exercises
-        var $cheatDisplay = $('#cheatDisplay');
         var goal = currRandomNumber.get();
         function find(start, history) {
             if (start == goal)
@@ -159,29 +152,22 @@ $(document).ready(function() {
                 return find(start + 5, "(" + history + " + 5)") ||
                     find(start * 3, "(" + history + " * 3)");
         }
-        if(find(1, "1")) {
-            $cheatDisplay.text(find(1, "1"));
-        } else {
-            $cheatDisplay.text("You are on your own.");
-        }
+        if(find(1, "1"))
+            $sub.text(find(1, "1"));
+        else
+            $sub.text("You are on your own.");
     });
 
     $("#guessEntry").on( "keypress", function (event) {
         // prevent non numerals from being entered
         var which = event.which;
-        if(which < 48 || which > 57){
-            event.preventDefault();
-        }
+        if(which < 48 || which > 57) event.preventDefault();
         // allow user to use 'Enter Key' to trigger guess
-        if(which == 13 && document.getElementById("guessEntry").value) {
-            $( "#btn_guess" ).click();
- //           console.log("keypress: " + which);
-        }
-
+        if(which == 13 && document.getElementById("guessEntry").value) $btn_guess.click();
     });
 
     function responseTxt(diff, count){
-        var ary
+        var ary;
         if(diff < 0){
             diff = diff*-1
         }
@@ -201,21 +187,18 @@ $(document).ready(function() {
         } else {
             ary = 0
         }
-
-    if(!(response[1].length)) {
-        // if it the first guess just the category.
-        response[1][0] = diff;
-        return response[0][ary];
-    } else {
-        // let them know they are moving in the right/wrong direction.
-        response[1][count] = diff;
-        $( "#test2" ).text( response[1][count-1] );
-        if (diff < response[1][count-1]) {
-         return response[0][ary] + ' - getting warmer.'
+        if(!(response[1].length)) {
+            // if it the first guess just the category.
+            response[1][0] = diff;
+            return response[0][ary];
         } else {
-            return response[0][ary] + ' - getting cooler.';
+            // let them know they are moving in the right/wrong direction.
+            response[1].push(diff);
+            if (response[1][count] < response[1][count-1]) {
+                return response[0][ary] + ' - getting warmer.'
+            } else {
+                return response[0][ary] + ' - getting cooler.';
             }
-
         }
     }
 });

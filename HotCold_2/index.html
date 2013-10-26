@@ -11,19 +11,23 @@
     <script src="script.js"></script>
 </head>
 <body>
-<h1><span>Hot</span> or <span>Cold</span><div class="icon-circle-question-mark"></div></h1>
-<h3 id="cheatDisplay"></h3>
-<h5 id="infoDisplay" class="hidden">Categories are Freezing, Cold, Cool, Warm, Hot, and Boiling. Within categories, 'getting warmer' is a good thing.<span class="icon-remove"></span></h5>
-    <div class="table">
-    <input type="search" id="guessEntry" name="guessInput" />
+    <div id="header">
+    <h1>Hot or Cold<div class="icon-circle-question-mark"></div></h1>
+    </div>
+    <div id="sub-header"></div>
+    <div id="test1"></div>
+    <div id="test2"></div>
+
+<div id="info" class="hidden">Categories are Freezing, Cold, Cool, Warm, Hot, and Boiling. Within categories, 'getting warmer' is a good thing.<div class="icon-remove"></div></div>
+   <div class="layout_btns">
+    <input type="number" id="guessEntry" name="guessInput" />
     <button id="btn_guess">Guess</button>
         <div>
         <button id="btn_newGame">New Game</button>
         <button id="btn_cheat">Cheat</button>
         </div>
-    </div>
-<div class="table">
+
     <ul class="ul_current"></ul>
-</div>
+    </div>
 </body>
 </html>

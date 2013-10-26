@@ -13,11 +13,9 @@ $(document).ready(function () {
     });
     // change the look of the done items.
     $(document).on('click', "input:checkbox", function () {
-        if($(this).prop('checked') == true) {
-        $(this).parent().addClass('checked');
-        } else {
-            $("li").removeClass('checked');
-        }
+        if($(this).prop('checked') == true) $(this).parent(1).addClass('checked');
+        else
+        $("li").removeClass('checked');
     });
     // create the li. too much going on here. separate the li creation into its own function.
     $("#listEntry").on("keypress", function (event) {
