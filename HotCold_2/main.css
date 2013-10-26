@@ -73,8 +73,7 @@ html, body {
     padding-bottom: 20px;
 }
 
-#sub-header
-{
+#sub-header {
     font-size: 18px;
 }
 
@@ -83,18 +82,11 @@ html, body {
 }
 
 .layout_btns {
-
- /*  display: table; */
     margin: auto;
     max-width: 960px;
     min-width: 700px;
     min-height: 22px;
     text-align: center;
-}
-
-ul {
-   min-width: 200px;
-   text-align: center;
 }
 
 li {
@@ -144,7 +136,6 @@ li.winner {
 }
 
 .icon-circle-question-mark {
-
    background-position: -96px -97px;
 }
 
@@ -159,36 +150,39 @@ li.winner {
    width: 117px;
    border: 1px solid #BBB;
    font-size: 27pt;
-   vertical-align: bottom;
+   vertical-align: top;
+   margin-top: 3px;
 }
 #guessEntry:focus{
    outline: none;
    box-shadow: none;
 }
 
+[id^="btn_"],[id*="btn_"]{
+    background-color: gray;
+    color: #BBBBBB;
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+[id*="btn_"]:focus {
+    outline: none;
+    border: 1px solid #BBBBBB;
+    box-shadow: none;
+}
+
 #btn_guess {
-   font-size: 18px;
-   font-weight: lighter;
    padding: 12px 11px;
-   display: inline-block;
-   position: relative;
-   background-color: gray;
    color: whitesmoke;
-   border: 1px solid #BBBBBB;
-   border-radius: 5px;
 }
 
 #btn_cheat {
-   font-size: 18px;
-   font-weight: lighter;
    padding: 12px 13px;
-   display: inline-block;
-   position: relative;
-   background-color: gray;
-   color: #BBBBBB;
-   border: 1px solid #BBBBBB;
-   border-radius: 5px;
-   margin-bottom: 10px;
 }
 
 #btn_cheat:hover {
@@ -196,28 +190,10 @@ li.winner {
 }
 
 #btn_newGame {
-   margin-top: 12px;
    margin-right: 7px;
-   font-size: 18px;
-   font-weight: lighter;
    padding: 12px 12px;
-   display: inline-block;
-   position: relative;
-   background-color: gray;
-   color: #BBBBBB;
-   border: 1px solid #BBBBBB;
-   border-radius: 5px;
 }
 
 #btn_newGame:hover {
-   color: #F5F5F5;
+    color: #F5F5F5;
 }
-
-[id*="btn_"]:focus {
-   outline: none;
-   border: 1px solid #BBBBBB;
-   box-shadow: none;
-}
-
-
-
