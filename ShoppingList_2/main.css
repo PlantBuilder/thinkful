@@ -52,7 +52,7 @@ html, body {
     height: 100%;
 }
 
-h1 {
+#header, #subheader {
     background: #996699;
     border-top: 1px solid #663366;
     border-left: 1px solid #663366;
@@ -69,38 +69,20 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    background: #996699;
-    border-left: 1px solid #663366;
-    border-right: 1px solid #663366;
-    border-bottom: 1px solid #663366;
+#subheader {
     border-top: 0;
     color: gray;
     font-size: 18px;
     margin: 0 auto;
-    min-height: 20px;
-    max-width: 500px;
-    min-width: 500px;
-    padding: 10px;
-    text-align: center;
 }
 
 .hidden {
     display: none;
 }
 
-.table {
+#items {
     display: table;
     margin: 0 auto;
-}
-#table1 {
-    display: table;
-    margin: 0 auto;
-}
-
-ul {
-    min-width: 200px;
-    text-align: center;
 }
 
 li {
@@ -160,9 +142,6 @@ li:last-child {
     text-align: left;
     vertical-align: top;
     width: 450px;
-
-
-
 }
 #listEntry:focus{
     outline: none;
@@ -185,9 +164,7 @@ body.dragging, body.dragging * {
 
 ol.example li.placeholder {
     position: relative;
-    /** More li styles **/
 }
 ol.example li.placeholder:before {
     position: absolute;
-    /** Define arrowhead **/
 }
