@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ShoppingList_2/favico-0.3.1.min.js" afterPath="$PROJECT_DIR$/ShoppingList_2/favico.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ShoppingList_2/jquery-2.0.3.js" afterPath="$PROJECT_DIR$/ShoppingList_2/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/index.html" afterPath="$PROJECT_DIR$/ShoppingList_2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/main.css" afterPath="$PROJECT_DIR$/ShoppingList_2/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/script.js" afterPath="$PROJECT_DIR$/ShoppingList_2/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="" />
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
