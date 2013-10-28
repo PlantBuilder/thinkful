@@ -121,7 +121,7 @@ li.winner {
 }
 
 [class^="icon-"], [class*="icon-"] {
-   background-image: url("glyphicons-halflings.png");
+   background-image: url("../lib/glyphicons-halflings.png");
    background-position: 16px 16px;
    background-repeat: no-repeat;
    display: inline-block;
@@ -132,7 +132,7 @@ li.winner {
 }
 
 [class*="icon-"]:hover {
-   background-image: url("glyphicons-halflings-white.png");
+   background-image: url("../lib/glyphicons-halflings-white.png");
 }
 
 .icon-circle-question-mark {
