@@ -192,3 +192,18 @@ body {
 .dimmed {
     opacity: 0.5;
  }
+
+.epilogue {
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px 0 20px 60px;
+    visibility: hidden;
+}
+
+.epilogue li {
+    min-height: 270px;
+    margin-right: 2px;
+    color: white;
+    width: 170px;
+}

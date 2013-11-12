@@ -91,6 +91,21 @@ $(document).ready(function() {
         $('.four').animo({animation: 'fadeInRight', duration: 1, keep: false });
     }
 
+    function displayEpilogue() {
+        // do the usual stuff to the last question bar.
+        var $epilogue = $( '.epilogue' );
+        var $currQ = $('.question5');
+        var myClass = 'correct';
+        $('input.test.5').attr( 'src', setImage(myClass) );
+        $( '.one, .two, .three, .four' ).unbind('click');
+        $currQ.find('.attribution').animate({color: '#505050'}, 1000);  // fades in the person's name.
+        $currQ.find('.attribution').show();
+        $currQ.addClass("dimmed");
+        // then reveal the epilogue.
+        $epilogue.css('visibility','visible');
+        $( '.epilogue li' ).animate({color: '#BBBBBB'}, 1500);
+    }
+
 
 
     // initial CLICK OF AN IMAGE
@@ -373,28 +388,28 @@ $(document).ready(function() {
                 "class": "correct one 5",
                 "type": "",
                 "src": "./images/islam.png",
-                "click": function () { clickImg(event) }
+                "click": function () { displayEpilogue() }
             },
             "img_two": {
                 "tagName": "<img/>",
                 "class": "correct two 5",
                 "type": "",
                 "src": "./images/judaism.png",
-                "click": function () { clickImg(event) }
+                "click": function () { displayEpilogue() }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "correct three 5",
                 "type": "",
                 "src": "./images/taoism.png",
-                "click": function () { clickImg(event) }
+                "click": function () { displayEpilogue() }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "correct four 5",
                 "type": "",
                 "src": "./images/christianity.png",
-                "click": function () { clickImg(event) }
+                "click": function () { displayEpilogue() }
             }
         }
     };
