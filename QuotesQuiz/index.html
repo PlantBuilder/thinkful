@@ -176,14 +176,13 @@
                 function clickImg(event) {
                     var myClass = event.target.className;
                     var int = myClass.replace(/[^1-5]/gi, "");
-                        console.log(int);
+
                         var imgArray = onImgClick( int );
                         var $currQ      =  $( imgArray[0] );
                         var $nextQ      =  $( imgArray[1] );
                         var $currBtn    =  $( imgArray[2] );
                         var $nextBtn    =  $( imgArray[3] );
 
-                        console.dir($currBtn) ;
                         $currBtn .attr( 'src', setImage(myClass) );
                         $currBtn .unbind('click');
                         $( '.one, .two, .three, .four' ).unbind('click');
