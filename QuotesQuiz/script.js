@@ -154,11 +154,7 @@ $(document).ready(function() {
                 "type": "image",
                 "class": "test 1 btn btn-default",    // the 1 in there is imp for when we are parsing out
                 "src": "images/plus.png",             // the numeral
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickPlusBtn('question1');       // again the 1 is important.
-                    })
-                }
+                "click": function () { clickPlusBtn('question1') }
             },
             "img_one": {
                 "tagName": "<img/>",
@@ -176,33 +172,21 @@ $(document).ready(function() {
                 "class": "correct two 1",
                 "type": "",
                 "src": "./images/ionesco.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "incorrect three 1",
                 "type": "",
                 "src": "./images/angelou.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "incorrect four 1",
                 "type": "",
                 "src": "./images/whitman.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             }
         },
         ".question2": {
@@ -226,55 +210,35 @@ $(document).ready(function() {
                 "tagName": "<input/>",
                 "class": "test 2 btn btn-default hidden",
                 "src": "images/plus.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickPlusBtn('question2')
-                    })
-                }
+                "click": function () { clickPlusBtn('question2') }
             },
             "img_one": {
                 "tagName": "<img/>",
                 "class": "correct one 2",
                 "type": "",
                 "src": "./images/einstein.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_two": {
                 "tagName": "<img/>",
                 "class": "incorrect two 2",
                 "type": "",
                 "src": "./images/hawking.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "incorrect three 2",
                 "type": "",
                 "src": "./images/curie.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "incorrect four 2",
                 "type": "",
                 "src": "./images/galileo.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             }
         },
         ".question3": {
@@ -298,62 +262,42 @@ $(document).ready(function() {
                 "tagName": "<input/>",
                 "class": "test 3 btn btn-default hidden",
                 "src": "images/plus.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickPlusBtn('question3')
-                    })
-                }
+                "click": function () { clickPlusBtn('question3') }
             },
             "img_one": {
                 "tagName": "<img/>",
                 "class": "incorrect one 3",
                 "type": "",
                 "src": "./images/gauguin.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_two": {
                 "tagName": "<img/>",
                 "class": "incorrect two 3",
                 "type": "",
                 "src": "./images/vangogh.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "correct three 3",
                 "type": "",
                 "src": "./images/picasso.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "incorrect four 3",
                 "type": "",
                 "src": "./images/klimt.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             }
         },
         ".question4": {
             "category": {
                 "tagName": "<span/>",
                 "class": "category",
-                "text": "Sport"
+                "text": "Sports"
             },
             "quote": {
                 "tagName": "<span/>",
@@ -370,55 +314,35 @@ $(document).ready(function() {
                 "tagName": "<input/>",
                 "class": "test 4 btn btn-default hidden",
                 "src": "images/plus.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickPlusBtn('question4')
-                    })
-                }
+                "click": function () { clickPlusBtn('question4') }
             },
             "img_one": {
                 "tagName": "<img/>",
                 "class": "incorrect one 4",
                 "type": "",
                 "src": "./images/williams.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_two": {
                 "tagName": "<img/>",
                 "class": "incorrect two 4",
                 "type": "",
                 "src": "./images/gretzky.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "correct three 4",
                 "type": "",
                 "src": "./images/berra.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "incorrect four 4",
                 "type": "",
                 "src": "./images/pele.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             }
         },
         ".question5": {
@@ -442,55 +366,35 @@ $(document).ready(function() {
                 "tagName": "<input/>",
                 "class": "test 5 btn btn-default hidden",
                 "src": "images/plus.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickPlusBtn('question5')
-                    })
-                }
+                "click": function () { clickPlusBtn('question5') }
             },
             "img_one": {
                 "tagName": "<img/>",
                 "class": "correct one 5",
                 "type": "",
                 "src": "./images/islam.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_two": {
                 "tagName": "<img/>",
                 "class": "correct two 5",
                 "type": "",
                 "src": "./images/judaism.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_three": {
                 "tagName": "<img/>",
                 "class": "correct three 5",
                 "type": "",
                 "src": "./images/taoism.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             },
             "img_four": {
                 "tagName": "<img/>",
                 "class": "correct four 5",
                 "type": "",
                 "src": "./images/christianity.png",
-                "click": function () {
-                    $(this).on('click', function () {
-                        clickImg(event)
-                    })
-                }
+                "click": function () { clickImg(event) }
             }
         }
     };
