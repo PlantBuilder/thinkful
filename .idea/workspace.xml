@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/index.html" afterPath="$PROJECT_DIR$/QuotesQuiz/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/script.js" afterPath="$PROJECT_DIR$/QuotesQuiz/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/style.css" afterPath="$PROJECT_DIR$/QuotesQuiz/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="45" selection-start="3860" selection-end="3860" vertical-scroll-proportion="-20.333334" vertical-offset="427" max-vertical-offset="1140">
+            <state line="53" column="64" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.5435746" vertical-offset="427" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -55,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuotesQuiz/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="30" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.4550642" vertical-offset="1271" max-vertical-offset="6375">
+            <state line="106" column="30" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="6375">
               <folding />
             </state>
           </provider>
@@ -95,9 +92,9 @@
         <option value="$PROJECT_DIR$/ShoppingList_3/main.css" />
         <option value="$PROJECT_DIR$/ShoppingList_3/script.js" />
         <option value="$PROJECT_DIR$/ShoppingList_3/index.html" />
-        <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
         <option value="$PROJECT_DIR$/QuotesQuiz/style.css" />
         <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
+        <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
       </list>
     </option>
   </component>
@@ -429,13 +426,6 @@
         <state line="12" column="58" selection-start="437" selection-end="437" vertical-scroll-proportion="0.2658789" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="45" selection-start="3860" selection-end="3860" vertical-scroll-proportion="-20.333334" vertical-offset="427" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QuotesQuiz/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="208" column="32" selection-start="3874" selection-end="3874" vertical-scroll-proportion="0.0" vertical-offset="2511" max-vertical-offset="3225">
@@ -452,7 +442,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QuotesQuiz/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="30" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.4550642" vertical-offset="1271" max-vertical-offset="6375">
+        <state line="106" column="30" selection-start="4549" selection-end="4549" vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="6375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="64" selection-start="3180" selection-end="3180" vertical-scroll-proportion="0.5435746" vertical-offset="427" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
