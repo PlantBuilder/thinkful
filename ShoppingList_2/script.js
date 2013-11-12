@@ -5,21 +5,20 @@
 $(document).ready(function () {
     var $document   = $(document);
     var $listEntry  = $("#listEntry");
-    $(function  () {
-        $("ul.sortable").sortable()
-    });
+    var $sortable = $("ul.sortable").sortable();
+
 
     // delete parent icon
-    $document.on('click', '.icon-remove', function () {
+    $sortable.on('click', '.icon-remove', function () {
         $minusOne.trigger('click');
         $(this).parent(1).remove();
     });
 
     // change the look of the done items.
-    $document.on('click', "input:checkbox", function () {
+    $sortable.on('click', "input:checkbox", function () {
         if($(this).prop('checked') == true) $(this).parent(1).addClass('checked');
         else
-        $("li").removeClass('checked');
+        $(this).parent(1).removeClass('checked');
     });
     // create the li. too much going on here. separate the li creation into its own function.
     $listEntry.on("keypress", function (event) {

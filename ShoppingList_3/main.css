@@ -168,3 +168,7 @@ ol.example li.placeholder {
 ol.example li.placeholder:before {
     position: absolute;
 }
+
+button {
+    background-color: black;
+}

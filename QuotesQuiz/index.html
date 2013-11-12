@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Favico.js - example">
+        <meta name="author" content="Miroslav Magda">
+
+        <link rel="shortcut icon" type="image/png" href="favicon.ico">
+
+        <title>Five Quotes</title>
+        <meta property="og:title" content="favico.js"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://lab.ejci.net/favico.js/"/>
+        <meta property="og:description" content="Make a use of your favicon with badges, images or videos"/>
+        <meta property="og:image" content="http://lab.ejci.net/favico.js/og-image-app.png"/>
+        <meta property="og:image:type" content="image/png"/>
+        <meta property="og:image:width" content="160"/>
+        <meta property="og:image:height" content="98"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.css" />
+        <link href="style.css" rel="stylesheet"/>
+        <link href="animate+animo.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <div class="navbar-wrapper">
+            <div class="container">
+
+                <div class="navbar navbar-inverse navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="https://github.com/PlantBuilder/thinkful/tree/gh-pages">quoted</a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                   <a href="https://github.com/PlantBuilder/thinkful/tree/gh-pages"><i class="icon-code"></i> source</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:cavanaughjames@gmail.com"><i class="icon-envelope-alt"></i> contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       <div class="container">
+           <div class="question1"></div><div class="grid1 hidden"></div>
+           <div class="question2"></div><div class="grid2 hidden"></div>
+           <div class="question3"></div><div class="grid3 hidden"></div>
+           <div class="question4"></div><div class="grid4 hidden"></div>
+           <div class="question5"></div><div class="grid5 hidden"></div>
+            <p></p>
+            <button id="plusOne" class="btn btn-sm btn-primary favBadge">
+                &nbsp;&nbsp;&nbsp;<i class="icon-circle-arrow-up"></i> +1&nbsp;&nbsp;&nbsp;
+            </button>
+            <button id="minusOne" class="btn btn-sm btn-primary favBadge">
+                &nbsp;&nbsp;&nbsp;<i class="icon-circle-arrow-down"></i> -1&nbsp;&nbsp;&nbsp;
+            </button>
+            <button id="reset" class="btn btn-sm btn-primary favBadge">
+                <i class="icon-off"></i> Reset
+            </button>
+      </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="jquery.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="favico.js"></script>
+        <script src="animo.js"></script>
+        <script src="jquery.color.min.js"></script>
+        <script>
+
+
+            $(document).ready(function() {
+                var badge = 0;
+                var favicon = new Favico({
+                    animation : 'popFade'
+                });
+                $('#plusOne').click(function() {
+                    badge = badge + 1;
+                    favicon.badge(badge);
+                });
+                $('#minusOne').click(function() {
+                    badge = (badge-1 < 0) ? 0 : (badge - 1);
+                    favicon.badge(badge);
+                });
+                $('#reset').click(function() {
+                    favicon.reset();
+                });
+
+                function buildQuestion(qNum) {
+                    var key, qData;
+                    qData = Q[qNum];
+                    for ( key in qData ) {
+                        if (qData[key].tagName == "<span/>") {
+                            createSpan(qData[key], qNum);
+                        } else if (qData[key].tagName == "<input/>") {
+                            createButton(qData[key], qNum);
+                        }
+                    }
+                }
+
+                function createSpan(data, qNum ) {
+                    $( data.tagName , {
+                        "class": data.class,
+                         text: data.text
+                    })
+                    .appendTo( qNum );
+                }
+
+                function createButton(data, qNum ) {
+                    $( data.tagName , {
+                        "class": data.class,
+                         type: data.type,
+                         src: data.src,
+                         click: data.click
+                    })
+                            .appendTo( qNum );
+                }
+
+                function onBtnClick(e) {
+                    $('input.test').unbind('click');
+                    var int = e.replace(/[^1-5]/gi, "");
+
+                    if(Number(int) > 1) {
+                        var previousGrid = ".grid" + (Number(int)-1);
+                        $(previousGrid).empty();
+                        $(previousGrid).addClass('hidden')
+                    }
+                    var curr = '.question' + int;
+                    var nxt = Number(int) + 1;
+                    nxt =  '.question' + nxt;
+                    return [curr,nxt]
+                }
+
+                function clickPlusBtn(currQ) {
+                    var gridQ, foo, Qarray;
+                    Qarray = onBtnClick(currQ);
+
+                    $(Qarray[0]).find('.attribution').hide();
+                    buildQuestion(Qarray[1]);
+                    $(Qarray[1]).addClass("dimmed");
+
+                        gridQ = createGrid(currQ);
+                        displayGrid(gridQ);
+
+                    $('#plusOne').click();
+                }
+
+                function setImage(myClass) {
+                    var result = (myClass.indexOf("incorrect") > -1 ) ? "images/redDelete.png" : "images/greenCheck.png";
+                    return result;
+                }
+
+                function onImgClick(int) {
+                    var curr = '.question' + int;
+                    var nxt = Number(int) + 1;
+                    var currBtn = 'input.test.' + int;
+                    var nextBtn = 'input.test.' + nxt;
+                    nxt =  '.question' + nxt;
+                    return [curr,nxt,currBtn,nextBtn];
+                }
+
+                function clickImg(event) {
+                    var myClass = event.target.className;
+                    var int = myClass.replace(/[^1-5]/gi, "");
+                        console.log(int);
+                        var imgArray = onImgClick( int );
+                        var $currQ      =  $( imgArray[0] );
+                        var $nextQ      =  $( imgArray[1] );
+                        var $currBtn    =  $( imgArray[2] );
+                        var $nextBtn    =  $( imgArray[3] );
+
+                        console.dir($currBtn) ;
+                        $currBtn .attr( 'src', setImage(myClass) );
+                        $currBtn .unbind('click');
+                        $( '.one, .two, .three, .four' ).unbind('click');
+                        $('#plusOne').click();
+                        $('.incorrect').animo('blur', {duration: 3, amount: 4});
+                        $currQ.find('.attribution').animate({color: '#505050'}, 1000);  // $( $currQ )
+                        $currQ.find('.attribution').show();
+                        $currQ.addClass("dimmed");
+                        $nextQ.removeClass("dimmed");
+                        $nextBtn.toggleClass('hidden', 2000);
+                }
+
+                function createGrid (currQ) {
+                    // snag the int off currQ
+                    var int = currQ.replace(/[^1-5]/gi, "");
+                    currQ = "." + currQ;
+                    var gridQ = ".grid" + int;
+                    var imgClassArray = ["img_one","img_two","img_three","img_four"]
+                    var  i, $img, data;
+                    for(i = 0; i < imgClassArray.length; i++) {
+                        data = Q[currQ][imgClassArray[i]];  // reusing createButton!!!
+                        $img = createButton(data,gridQ);
+                    }
+                    $( '.one, .two, .three, .four' ).wrap( "<div class='module' />" );
+                    $( '.module' ).wrap( "<div class='col-1-4' />"  );
+                    return gridQ;
+                }
+
+                function displayGrid(gridQ) {
+                    $( gridQ ).removeClass('hidden');
+                    $('<img>').animo('focus');
+                    $('.two').animo({animation: 'fadeInLeft', duration: 0.5, keep: false });
+                    $('.three').animo({animation: 'fadeInRight', duration: 0.5, keep: false });
+                    $('.one').animo({animation: 'fadeInLeft', duration: 1, keep: false });
+                    $('.four').animo({animation: 'fadeInRight', duration: 1, keep: false });
+                }
+
+                function closeGrid (currQ) {
+                    // get the name of the grid
+                    var int = currQ.replace(/[^1-5]/gi, "");
+                    int = Number(int) - 1;
+                    var previousGrid = ".grid" + int;
+                    $(previousGrid).slideUp(2000);
+                }
+
+                    var Q = {
+                        ".question1": {
+                            "category": {
+                                "tagName": "<span/>",
+                                "class": "category",
+                                "text": "Literature"
+                            },
+                            "quote": {
+                                "tagName": "<span/>",
+                                "class": "quote",
+                                "text": "\"Only the ephemeral is of lasting value.\""
+                            },
+                            "attribution": {
+                                "tagName": "<span/>",
+                                "class": "attribution",
+                                "text": "-Ionesco"
+                            },
+                            "button": {
+                                "tagName": "<input/>",
+                                "type": "image",
+                                "class": "test 1 btn btn-default",
+                                "src": "images/plus.png",
+                                "click": function () {
+                                    $(this).one('click', function () {
+                                        clickPlusBtn('question1')
+                                    })
+                                }
+                            },
+                            "img_one": {
+                                "tagName": "<img/>",
+                                "class": "incorrect one 1",
+                                "type": "",
+                                "src": "./images/dickinson.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_two": {
+                                "tagName": "<img/>",
+                                "class": "correct two 1",
+                                "type": "",
+                                "src": "./images/ionesco.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_three": {
+                                "tagName": "<img/>",
+                                "class": "incorrect three 1",
+                                "type": "",
+                                "src": "./images/angelou.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_four": {
+                                "tagName": "<img/>",
+                                "class": "incorrect four 1",
+                                "type": "",
+                                "src": "./images/whitman.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            }
+                        },
+                        ".question2": {
+                            "category": {
+                                "tagName": "<span/>",
+                                "class": "category",
+                                "text": "Science"
+                            },
+                            "quote": {
+                                "tagName": "<span/>",
+                                "class": "quote",
+                                "text": "Imagination is more important than knowledge."
+                            },
+                            "attribution": {
+                                "tagName": "<span/>",
+                                "class": "attribution",
+                                "text": "-Einstein"
+                            },
+                            "button": {
+                                "type": "image",
+                                "tagName": "<input/>",
+                                "class": "test 2 btn btn-default hidden",
+                                "src": "images/plus.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickPlusBtn('question2')
+                                    })
+                                }
+                            },
+                            "img_one": {
+                                "tagName": "<img/>",
+                                "class": "correct one 2",
+                                "type": "",
+                                "src": "./images/einstein.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_two": {
+                                "tagName": "<img/>",
+                                "class": "incorrect two 2",
+                                "type": "",
+                                "src": "./images/hawking.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_three": {
+                                "tagName": "<img/>",
+                                "class": "incorrect three 2",
+                                "type": "",
+                                "src": "./images/curie.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_four": {
+                                "tagName": "<img/>",
+                                "class": "incorrect four 2",
+                                "type": "",
+                                "src": "./images/galileo.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            }
+                        },
+                        ".question3": {
+                            "category": {
+                                "tagName": "<span/>",
+                                "class": "category",
+                                "text": "Art"
+                            },
+                            "quote": {
+                                "tagName": "<span/>",
+                                "class": "quote",
+                                "text": "Good artists borrow, great artists steal."
+                            },
+                            "attribution": {
+                                "tagName": "<span/>",
+                                "class": "attribution",
+                                "text": "-Picasso"
+                            },
+                            "button": {
+                                "type": "image",
+                                "tagName": "<input/>",
+                                "class": "test 3 btn btn-default hidden",
+                                "src": "images/plus.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickPlusBtn('question3')
+                                    })
+                                }
+                            },
+                            "img_one": {
+                                "tagName": "<img/>",
+                                "class": "incorrect one 3",
+                                "type": "",
+                                "src": "./images/gauguin.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_two": {
+                                "tagName": "<img/>",
+                                "class": "incorrect two 3",
+                                "type": "",
+                                "src": "./images/vangogh.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_three": {
+                                "tagName": "<img/>",
+                                "class": "correct three 3",
+                                "type": "",
+                                "src": "./images/picasso.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_four": {
+                                "tagName": "<img/>",
+                                "class": "incorrect four 3",
+                                "type": "",
+                                "src": "./images/klimt.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            }
+                        },
+                        ".question4": {
+                            "category": {
+                                "tagName": "<span/>",
+                                "class": "category",
+                                "text": "Sport"
+                            },
+                            "quote": {
+                                "tagName": "<span/>",
+                                "class": "quote",
+                                "text": "I never said most of the things I said"
+                            },
+                            "attribution": {
+                                "tagName": "<span/>",
+                                "class": "attribution",
+                                "text": "-Yogi Berra"
+                            },
+                            "button": {
+                                "type": "image",
+                                "tagName": "<input/>",
+                                "class": "test 4 btn btn-default hidden",
+                                "src": "images/plus.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickPlusBtn('question4')
+                                    })
+                                }
+                            },
+                            "img_one": {
+                                "tagName": "<img/>",
+                                "class": "incorrect one 4",
+                                "type": "",
+                                "src": "./images/williams.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_two": {
+                                "tagName": "<img/>",
+                                "class": "incorrect two 4",
+                                "type": "",
+                                "src": "./images/gretzky.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_three": {
+                                "tagName": "<img/>",
+                                "class": "correct three 4",
+                                "type": "",
+                                "src": "./images/berra.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_four": {
+                                "tagName": "<img/>",
+                                "class": "incorrect four 4",
+                                "type": "",
+                                "src": "./images/pele.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            }
+                        },
+                        ".question5": {
+                            "category": {
+                                "tagName": "<span/>",
+                                "class": "category",
+                                "text": "Spirituality"
+                            },
+                            "quote": {
+                                "tagName": "<span/>",
+                                "class": "quote",
+                                "text": "Simplicity, patience, compassion..."
+                            },
+                            "attribution": {
+                                "tagName": "<span/>",
+                                "class": "attribution",
+                                "text": "-All"
+                            },
+                            "button": {
+                                "type": "image",
+                                "tagName": "<input/>",
+                                "class": "test 5 btn btn-default hidden",
+                                "src": "images/plus.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickPlusBtn('question5')
+                                    })
+                                }
+                            },
+                            "img_one": {
+                                "tagName": "<img/>",
+                                "class": "correct one 5",
+                                "type": "",
+                                "src": "./images/islam.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_two": {
+                                "tagName": "<img/>",
+                                "class": "correct two 5",
+                                "type": "",
+                                "src": "./images/judaism.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_three": {
+                                "tagName": "<img/>",
+                                "class": "correct three 5",
+                                "type": "",
+                                "src": "./images/taoism.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            },
+                            "img_four": {
+                                "tagName": "<img/>",
+                                "class": "correct four 5",
+                                "type": "",
+                                "src": "./images/christianity.png",
+                                "click": function () {
+                                    $(this).on('click', function () {
+                                        clickImg(event)
+                                    })
+                                }
+                            }
+                        }
+                    };
+                  //  $(".question3").html( Q.question3.category+Q.question3.quote+Q.question3.attribution+Q.question3.button);
+                    buildQuestion('.question1')
+                 //   var cloned = '<div>' + $( ".grid" ).clone(); //.appendTo( ".question2" );
+                //    cloned.addClass("hidden");
+                //    console.log(cloned);
+                 //   cloned.appendTo( ".test2" );
+                //    $( ".grid" ).clone().appendTo( ".test2" );
+                //});
+
+                //initial value
+                favicon.badge(badge);
+                $('.test.1').animo({animation: 'tada', duration: 1, keep: false});
+
+            });
+        </script>
+
+    </body>
+</html>

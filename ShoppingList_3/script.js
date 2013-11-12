@@ -1,60 +1,66 @@
 /**
- * Created by jim on 10/27/13.
+ * Created by jim on 10/29/13.
  */
 
-jQuery(function ($) {
-
-    var App = {
-
-        favicon: new Favico({
-            animation : 'popFade'
-        }),
-
-        init: function () {
-            // init the stuff below
-        },
-        cacheElements: function () {
-            this.$document = $(document);
-            this.$listEntry  = this.find('#listEntry');
-            this.$minusOne   = this.find('#minusOne');
-        },
-        bindEvents: function () {
-            this.$document.on('click', '.icon-remove', this.destroyListItem);
-            this.$minusOne.on('click', this.badgeMinus);
-        },
-
-        destroyListItem: function () {
-            $minusOne.trigger('click');
-            $(this).parent(1).remove();
-        },
-        badgeMinus: function () {
-            badge = (badge-1 < 0) ? 0 : (badge - 1);
-            favicon.badge(badge);
-        }
-
-
-    };
-    App.init();
-});
-
-$(document).ready(function () {
+// define Class
+function ShoppingList () {
     var $document   = $(document);
     var $listEntry  = $("#listEntry");
-    $(function  () {
-        $("ul.sortable").sortable()
-    });
+    var $sortable = $("ul.sortable").sortable();
+    var $alertButton = $('#alertButton');
+
+    this.destroyListItem = function() {
+        $document.on('click', '#alertButton', function () {
+            alert('foo');
+            console.log('foo');
+        });
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+
+    var this_list = new ShoppingList();
+
+    this.destroyListItem = function () {
+        $document.on('click', '#alertButton', function () {
+            alert('foo');
+            console.log('foo')
+        });
+
+    }
+
+});
+
+   /*
+    var $document   = $(document);
+    var $listEntry  = $("#listEntry");
+    var $sortable = $("ul.sortable").sortable();
+
 
     // delete parent icon
-    $document.on('click', '.icon-remove', function () {
+    $sortable.on('click', '.icon-remove', function () {
         $minusOne.trigger('click');
         $(this).parent(1).remove();
     });
 
     // change the look of the done items.
-    $document.on('click', "input:checkbox", function () {
+    $sortable.on('click', "input:checkbox", function () {
         if($(this).prop('checked') == true) $(this).parent(1).addClass('checked');
         else
-        $("li").removeClass('checked');
+            $(this).parent(1).removeClass('checked');
     });
     // create the li. too much going on here. separate the li creation into its own function.
     $listEntry.on("keypress", function (event) {
@@ -63,11 +69,11 @@ $(document).ready(function () {
         if (which == 13) {
             var inp = $listEntry.val();
             if(jQuery.trim(inp).length > 0) {
-            $plusOne.trigger('click');
-            // too much going on here. Should be tucked away into a function to be called.
-            $('.sortable').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
-            $listEntry.val('');
-            return false;
+                $plusOne.trigger('click');
+                // too much going on here. Should be tucked away into a function to be called.
+                $('.sortable').append('<li>  <input type="checkbox" id="c1" name="cc" /><label for c1>'  + inp + '</label><div class="icon-remove"></div></li>');
+                $listEntry.val('');
+                return false;
             }
         }
     });
@@ -91,3 +97,4 @@ $(document).ready(function () {
     //initial value
     favicon.badge(badge);
 });
+       */
