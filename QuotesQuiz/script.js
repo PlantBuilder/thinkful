@@ -156,7 +156,7 @@ $(document).ready(function() {
                 "src": "images/plus.png",             // the numeral
                 "click": function () {
                     $(this).on('click', function () {
-                        clickPlusBtn('question1')       // again the 1 is important.
+                        clickPlusBtn('question1');       // again the 1 is important.
                     })
                 }
             },

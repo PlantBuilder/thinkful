@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/animate+animo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/animo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/favico.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/favicon32.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/jquery.color.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QuotesQuiz/jquery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/index.html" afterPath="$PROJECT_DIR$/QuotesQuiz/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/script.js" afterPath="$PROJECT_DIR$/QuotesQuiz/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="95" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="1110">
+            <state line="4" column="144" selection-start="153" selection-end="153" vertical-scroll-proportion="0.08695652" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -81,7 +38,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QuotesQuiz/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="167" selection-start="5774" selection-end="5774" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="7575">
+            <state line="239" column="176" selection-start="9859" selection-end="9859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7575">
               <folding />
             </state>
           </provider>
@@ -119,8 +76,8 @@
         <option value="$PROJECT_DIR$/ShoppingList_3/main.css" />
         <option value="$PROJECT_DIR$/ShoppingList_3/script.js" />
         <option value="$PROJECT_DIR$/ShoppingList_3/index.html" />
-        <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
         <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
+        <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
       </list>
     </option>
   </component>
@@ -232,16 +189,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -260,6 +217,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -268,14 +233,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -359,9 +316,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25666413" sideWeight="0.6710037" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -435,35 +392,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="13" selection-start="4995" selection-end="4995" vertical-scroll-proportion="0.13865547" vertical-offset="2421" max-vertical-offset="3135">
-          <folding />
-        </state>
+        <state line="168" column="13" selection-start="4995" selection-end="4995" vertical-scroll-proportion="0.13865547" vertical-offset="2421" max-vertical-offset="3135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="78" selection-start="238" selection-end="238" vertical-scroll-proportion="0.15509601" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="7" column="78" selection-start="238" selection-end="238" vertical-scroll-proportion="0.15509601" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="437" selection-end="437" vertical-scroll-proportion="0.2658789" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="12" column="58" selection-start="437" selection-end="437" vertical-scroll-proportion="0.2658789" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuotesQuiz/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="167" selection-start="5774" selection-end="5774" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="7575">
+        <state line="239" column="176" selection-start="9859" selection-end="9859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="95" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="1110">
+        <state line="4" column="144" selection-start="153" selection-end="153" vertical-scroll-proportion="0.08695652" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
