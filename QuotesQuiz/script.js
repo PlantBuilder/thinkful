@@ -74,7 +74,7 @@ $(document).ready(function() {
         var imgClassArray = ["img_one","img_two","img_three","img_four"];   // to call corresponding keys in dataset
         var  i, $img, data;
         for(i = 0; i < imgClassArray.length; i++) {
-            data = Q[currQ][imgClassArray[i]];           // grad the data for the element
+            data = Q[currQ][imgClassArray[i]];           // grab the data for the element
             $img = createButton(data,gridQ);            // reusing createButton!!!  (line 27)  should be renamed createClickable.
         }                                               // could probably reuse createSpan for div's and p's; maybe createNonClickables.
         $( '.one, .two, .three, .four' ).wrap( "<div class='module' />" );    // sweet stuff here.
@@ -104,7 +104,7 @@ $(document).ready(function() {
         var $currBtn    =  $( imgArray[2] );
         var $nextBtn    =  $( imgArray[3] );
 
-        $currBtn .attr( 'src', setImage(myClass) );  // calls setImage (below) so the right graphic (green check or red delete) populates plusBtn.
+        $currBtn.attr( 'src', setImage(myClass) );  // calls setImage (below) so the right graphic (green check or red delete) populates plusBtn.
         $( '.one, .two, .three, .four' ).unbind('click');   // this works a treat. So only one image choice can be made.
         $('.incorrect').animo('blur', {duration: 3, amount: 4});
         $currQ.find('.attribution').animate({color: '#505050'}, 1000);  // fades in the person's name.
