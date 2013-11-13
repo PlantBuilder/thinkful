@@ -103,7 +103,7 @@ $(document).ready(function() {
         $currQ.addClass("dimmed");
         // then reveal the epilogue.
         $epilogue.css('visibility','visible');
-        $( '.epilogue li' ).animate({color: '#BBBBBB'}, 1500);
+        $( '.epilogue li' ).animate({color: '#9d9d9d'}, 1500);
     }
 
 
