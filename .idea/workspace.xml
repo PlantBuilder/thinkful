@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/css/all.css" afterPath="$PROJECT_DIR$/FlipiPedia/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/index.html" afterPath="$PROJECT_DIR$/FlipiPedia/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" afterPath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" afterPath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="112" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.62038404" vertical-offset="0" max-vertical-offset="1275">
+            <state line="47" column="79" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-4.3333335" vertical-offset="601" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.wikipedia.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery.wikipedia.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
+            <state line="5" column="19" selection-start="171" selection-end="171" vertical-scroll-proportion="0.21551724" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -46,7 +50,7 @@
       <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="51" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2355">
+            <state line="132" column="2" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2370">
               <folding />
             </state>
           </provider>
@@ -55,7 +59,7 @@
       <file leaf-file-name="jquery.wikipedia.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="57" selection-start="3724" selection-end="3724" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1455">
+            <state line="35" column="137" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -64,7 +68,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+            <state line="4" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -97,21 +101,21 @@
         <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
         <option value="$PROJECT_DIR$/HotCold_2/script.js" />
         <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
-        <option value="$PROJECT_DIR$/FlipiPedia/css/all.css" />
-        <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
         <option value="$PROJECT_DIR$/ed-lea-jquery-collagePlus/jquery.collagePlus.js" />
         <option value="$PROJECT_DIR$/Wikipedia-master/css/jquery.wikipedia.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/script.js" />
-        <option value="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
+        <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
+        <option value="$PROJECT_DIR$/FlipiPedia/css/all.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/index.html" />
+        <option value="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="22" />
-    <option name="width" value="1359" />
-    <option name="height" value="860" />
+    <option name="x" value="-6" />
+    <option name="y" value="55" />
+    <option name="width" value="1437" />
+    <option name="height" value="509" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,7 +212,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlipiPedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,7 +326,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="22" width="1359" height="860" extended-state="0" />
+    <frame x="-6" y="55" width="1437" height="509" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,7 +340,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25666413" sideWeight="0.6710037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24227175" sideWeight="0.6710037" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -438,13 +460,6 @@
         <state line="11" column="4" selection-start="396" selection-end="429" vertical-scroll-proportion="0.2437223" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="51" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -454,21 +469,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="57" selection-start="3724" selection-end="3724" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
+        <state line="35" column="137" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
+    <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="132" column="2" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2370">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="112" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.62038404" vertical-offset="0" max-vertical-offset="1275">
+        <state line="47" column="79" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-4.3333335" vertical-offset="601" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="171" selection-end="171" vertical-scroll-proportion="0.21551724" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>

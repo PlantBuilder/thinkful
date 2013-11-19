@@ -4,10 +4,7 @@
   font-size: 18px;
   position:relative;
   min-height:150px;
-  width:100%;
   padding:10px;
-  border-radius:5px;
-  background:#ddd;
 }
 .wikipediaContainer .bg {
   position:absolute;

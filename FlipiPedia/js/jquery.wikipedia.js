@@ -50,7 +50,7 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
   var wikiContainer = this;      
   wikiContainer.append('<div class="ajaxLoading"><img src="img/ajax-loader.gif"></div>');
   //get data.parse.images
-  $.getJSON('http://en.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {page:wikipediaPage, prop:'text|images', uselang:'en'}, function(parsedata) {
+  $.getJSON('http://en.wikipedia.org/w/api.php?action=parse&format=json&callback=?', {page:wikipediaPage, prop:'text|images', uselang:'en', list: 'allimages'}, function(parsedata) {
     //remove loading image
     wikiContainer.find('.ajaxLoading').remove();
     //debug

@@ -113,7 +113,7 @@ p#appstore {
     opacity: 0.25;
    float: right;
 }
-
+/*
 .jumbotron {
     -webkit-transform: scaleX(1);
     transform:  scaleX(1);
@@ -130,6 +130,7 @@ p#appstore {
     -webkit-transition: all 1s ease-in;
     transition: all 1s ease-in;
 }
+*/
 
 @media (min-width: 768px) and (max-width: 979px) {
   img#iphone {
