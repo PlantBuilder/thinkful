@@ -77,7 +77,7 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     //add maxThumbnails to main container
     $.each(rightThumbnails, function(index, Thumbnail) {
       //add thumb with thumbMaxHeight and thumbMaxWidth
-      if(index<maxThumbnails) wikiContainer.find('.Collage').append($(Thumbnail).removeAttr('srcset').removeClass('thumbimage').removeAttr('width').wrap("<div class='Image_Wrapper' data=caption='" +this.alt+ "'></div>").parent());  
+      if(index<maxThumbnails) wikiContainer.find('.Collage').append($(Thumbnail).removeAttr('srcset').removeClass('thumbimage').removeAttr('width').wrap("<div class='Image_Wrapper' data-caption='" +this.alt+ "'></div>").parent());  
 
     });
     //get right side table
