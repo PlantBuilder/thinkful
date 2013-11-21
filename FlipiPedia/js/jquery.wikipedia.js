@@ -57,7 +57,8 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     console.dir(parsedata);
     //drop text to div container
     var content = $(parsedata.parse.text["*"]).wrap('<div></div>').parent();
-
+  var thumbcontent = content.find('.thumbinner');
+  console.dir(thumbcontent);
     //insert title
     if(showTitle) {
       wikiContainer.append('<div class="wikipediaTitle"></div>').find('.wikipediaTitle').html(parsedata.parse.title);
