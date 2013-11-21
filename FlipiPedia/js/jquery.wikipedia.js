@@ -6,7 +6,7 @@
 $.fn.WikipediaWidget = function(wikipediaPage, options) {  
   //init defaults
   var showTitle = true;
-  var maxThumbnails = 3;
+  var maxThumbnails = 24;
   var cutFirstInfoTableRows = 5;
   var maxInfoTableRows = 8;
   var thumbMaxWidth  = '180px'; 
@@ -71,12 +71,14 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     var description = content.find('p').first().text();
     wikiContainer.append('<div class="wikipediaDescription"></div>').find('.wikipediaDescription').append(description);
     //get thumbnail images
-    var rightThumbnails = content.find('.thumb a.image img');
-    wikiContainer.append('<ul class="wikipediaThumbGallery"></ul>');
+    var rightThumbnails = content.find('img.thumbimage');
+    console.dir(rightThumbnails[0].alt)
+    wikiContainer.append('<div class="Collage"></div>');
     //add maxThumbnails to main container
     $.each(rightThumbnails, function(index, Thumbnail) {
       //add thumb with thumbMaxHeight and thumbMaxWidth
-      if(index<maxThumbnails) wikiContainer.find('.wikipediaThumbGallery').append($(Thumbnail).removeAttr('srcset').removeAttr('height').removeAttr('width').css({'width': 'auto', 'height': 'auto', 'max-width': thumbMaxWidth, 'max-height': thumbMaxHeight}).wrap('<li class="wikipediaThumbnail"></li>').parent());  
+      if(index<maxThumbnails) wikiContainer.find('.Collage').append($(Thumbnail).removeAttr('srcset').removeClass('thumbimage').removeAttr('width').wrap("<div class='Image_Wrapper' data=caption='" +this.alt+ "'></div>").parent());  
+
     });
     //get right side table
     var rightTable = content.find('table.infobox, table.float-right').first();
