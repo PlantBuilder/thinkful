@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" type="image/png" href="../lib/favicon.ico">
     <title>FlipiPedia</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="description">
     <meta content="" name="author">
-    <link href="http://fonts.googleapis.com/css?family=Karla:400,700" media="screen" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Oswald" media="screen" rel="stylesheet" type="text/css" />
+    <style>
+    @font-face {
+     font-family: Voces;
+     src: url('css/Voces-Regular.ttf')
+    }
+
+    </style>
+  <!-- Things I figured out: You need an IPA friendly font (like Voces) for Wikipedia translations -->
+  <!-- <link href="http://fonts.googleapis.com/css?family=Voces" media="screen" rel="stylesheet" type="text/css" />  -->
+  <!--  <link href="http://fonts.googleapis.com/css?family=Oswald" media="screen" rel="stylesheet" type="text/css" />  -->
     <link href="../lib/Bootstrap/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="css/all.css" media="screen" rel="stylesheet" type="text/css" />
-  <!--  <link href="css/transitions.css" media="screen" rel="stylesheet" type="text/css" /> -->
+    <link href="css/transitions.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.wikipedia.css">
     <script src="../lib/jquery.js"></script>
+    <script src="js/jquery.collagePlus.js"></script>
+    <script src="extras/jquery.removeWhitespace.js"></script>
+    <script src="extras/jquery.collageCaption.js"></script>
     <script src="js/jquery.wikipedia.js" ></script>
     <script src="js/script.js"></script>
     <!--[if lt IE 9]>
@@ -20,60 +32,73 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-  <div class="row">
-    <div class="col-sm-6  col-md-8 col-lg-10 col-md-offset-2 col-lg-offset-1 content">
-      <div class="row">
-        <div>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-10  col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1  content">
+
           <h1>
-              <!--     <img alt="Bootstrap" width="158" height="158" src="img/logo.png" />   -->
              <img class="logoTop" alt="Bootstrap" width="158" height="79" src="img/LogoTop.png" />
              <img class="logoBottom" alt="Bootstrap" width="158" height="79" src="img/logoBottom.png" />
           </h1>
-           <h2>Wikipedia - Search</h2>
+          <h2>Wikipedia - Search</h2>
           <hr>
           <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <div class="input-group">
-                    <input required="required" pattern="^\S" autofocus type="text" class="form-control" name="listInput" autocomplete="off" placeholder="Search terms..."/>
+                    <input required="required" pattern="^\S" type="text" class="form-control" name="listInput" autocomplete="off" placeholder="Search terms..."/>
                     <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Search</button>
+                      <button id="btn_search" class="btn btn-default" type="button">Search</button>
                     </span>
                 </div>
               </div>
+          </div>
+
+            <div id="wikiImgContainer" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron">
+                <div id="btn_demo2"></div>
+                <div class="Collage effect-parent">
+
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-1.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-2.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-3.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-4.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-5.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-6.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-7.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-8.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-9.png" /></div>
+                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-10.jpg"/></div>
+                </div>
             </div>
 
+                <div id="demo2" class="wikipediaContainer col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron ">
+                    <div class="bg"></div>
+                </div>
 
-       <!--   <div class="span5" id="features">     -->
-            <div id="demo1" class="col-sm-6  col-md-8 col-lg-10 col-md-offset-1 jumbotron wikipediaContainer">
-             <!-- <div id="demo1" class="wikipediaContainer"> --> <div class="bg"></div></div>
-            </div>
-            <div class="row">
+          <div class="row">
+             <div class="col-sm-10  col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1">
+                 <hr>
+                    <p id="social">
+                        <a href="#"><img alt="Follow us on Twitter" width="64" height="64" src="img/twitter.png" /></a>
+                        <a href="#"><img alt="Like us on Facebook" width="64" height="64" src="img/facebook.png" /></a>
+                        <a href="#"><img alt="Follow us on Google+" width="64" height="64" src="img/google-plus.png" /></a>
+                        <a href="#"><img alt="Read our blog" width="64" height="64" src="img/rss.png" /></a>
+                    </p>
+                 <hr>
+             </div>
+          </div>
+
+          <div class="row">
             <div class="col-sm-6  col-md-8 col-lg-10 col-md-offset-2 col-lg-offset-1">
-          <hr>
-          <p id="social">
-            <a href="#"><img alt="Follow us on Twitter" width="64" height="64" src="img/twitter.png" /></a>
-            <a href="#"><img alt="Like us on Facebook" width="64" height="64" src="img/facebook.png" /></a>
-            <a href="#"><img alt="Follow us on Google+" width="64" height="64" src="img/google-plus.png" /></a>
-            <a href="#"><img alt="Read our blog" width="64" height="64" src="img/rss.png" /></a>
-          </p>
-          <hr>
-          </div>
-          </div>
-            <div class="row">
-                <div class="col-sm-6  col-md-8 col-lg-10 col-md-offset-2 col-lg-offset-1"
-          <footer>
-            <p>
-              Project &copy; Thinkful
-              <span class="pull-right"><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
-            </p>
-          </footer>
+                <footer>
+                    <p>
+                        Project &copy; Thinkful
+                        <span class="pull-right"><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+                    </p>
+                </footer>
             </div>
+          </div>
         </div>
-        </div>
-      </div>
     </div>
   </div>
-</div>
   </body>
-</html>
+  </html>

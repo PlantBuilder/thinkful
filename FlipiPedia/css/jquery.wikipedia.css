@@ -1,9 +1,10 @@
 .ajaxLoading {margin-top:50px;text-align:center;}    
 .wikipediaContainer {
-  font-family: "Karla", sans-serif;
+  font-family: "Voces";
   font-size: 18px;
+  overflow: hidden;
   position:relative;
-  min-height:150px;
+  min-height:175px;
   padding:10px;
 }
 .wikipediaContainer .bg {
@@ -15,7 +16,7 @@
   background: no-repeat url('http://upload.wikimedia.org/wikipedia/commons/3/30/Wikipedia_2.0-new_prototype.png');
   opacity:0.3;
 }
-.wikipediaContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Oswald" bold;border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
+.wikipediaContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Voces";border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
 .wikipediaContainer .wikipediaLogo {width:150px;float:left;margin-right:20px;}
 .wikipediaContainer .wikipediaDescription {float:right;width:430px;}
 .wikipediaContainer ul.wikipediaThumbGallery {float:left;width:600px;list-style:none;padding:0;}
