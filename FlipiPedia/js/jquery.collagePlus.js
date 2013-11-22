@@ -20,7 +20,7 @@
 
         var defaults = {
             // the ideal height you want your images to be
-            'targetHeight'          : 400,
+            'targetHeight'          : 500,
             // width of the area the collage will be in
             'albumWidth'            : this.width(),
             // padding between the images. Using padding left as we assume padding is even all the way round
