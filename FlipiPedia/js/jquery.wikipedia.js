@@ -5,7 +5,11 @@
  */ 
 $.fn.WikipediaWidget = function(wikipediaPage, options) {  
   //init defaults
+<<<<<<< HEAD
   var showTitle = false;
+=======
+  var showTitle = true;
+>>>>>>> 16ae90969983b7188ab912597543146d915047c2
   var maxThumbnails = 24;
   var cutFirstInfoTableRows = 5;
   var maxInfoTableRows = 10;
@@ -60,7 +64,8 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     console.dir(parsedata);
     //drop text to div container
     var content = $(parsedata.parse.text["*"]).wrap('<div></div>').parent();
-
+  var thumbcontent = content.find('img.thumbimage');
+  console.dir(thumbcontent);
     //insert title
     if(showTitle) {
       wikiContainer.append('<div class="wikipediaTitle"></div>').find('.wikipediaTitle').html(parsedata.parse.title);
@@ -86,6 +91,7 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
  //     description +=  descriptionArray[1].innerText;
    // wikiContainer.append('<div class="wikipediaDescription"></div>').find('.wikipediaDescription').append(description);
     //get thumbnail images
+<<<<<<< HEAD
 //    var rightThumbnails = content.find('.thumb a.image img');
     var rightThumbnails = content.find('img.thumbimage');
    // wikiContainer.append('<ul class="wikipediaThumbGallery"></ul>');
@@ -95,6 +101,16 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
       //add thumb with thumbMaxHeight and thumbMaxWidth
       if(index<maxThumbnails) wikiContainer.find('.Collage').append($(Thumbnail).removeAttr('srcset').removeClass('thumbimage').wrap("<div class='Image_Wrapper' data-caption = '" + this.alt + "'></div>").parent());    //  <a href = 'http://en.wikipedia.org/wiki/" + wikipediaPage + "' target='_blank'></a>
         console.log($(Thumbnail).attr('alt'))
+=======
+    var rightThumbnails = content.find('img.thumbimage');
+    console.dir(rightThumbnails[0].alt)
+    wikiContainer.append('<div class="Collage"></div>');
+    //add maxThumbnails to main container
+    $.each(rightThumbnails, function(index, Thumbnail) {
+      //add thumb with thumbMaxHeight and thumbMaxWidth
+      if(index<maxThumbnails) wikiContainer.find('.Collage').append($(Thumbnail).removeAttr('srcset').removeClass('thumbimage').removeAttr('width').wrap("<div class='Image_Wrapper' data-caption='" +this.alt+ "'></div>").parent());  
+
+>>>>>>> 16ae90969983b7188ab912597543146d915047c2
     });
     collage();
    //   $('.Collage').collageCaption();
