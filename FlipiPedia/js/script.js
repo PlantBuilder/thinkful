@@ -6,13 +6,42 @@ $(window).load(function () {
         collage();
         $('.Collage').collageCaption();
 
-        var $btn_search =  $( "#btn_search" );
-        var $input        = $( "input[name='listInput']" );
+        var $btn_search         = $( "#btn_search" );
+        var $input              = $( "input[name='listInput']" );
+        var $btn_toTxt          = $( "#btn_toTxt" );
+        var $btn_toImg          = $( "#btn_toImg" );
+        var $flipContainer      = $( '.flip-container' );
+        var $wikiImgContainer   = $( '#wikiImgContainer' );
+
         $btn_search.click(function () {
             var success, num, txt, count;
             // grab the random number
-            if($input.val())  $('#demo2').WikipediaWidget($input.val());
+            $wikiImgContainer.css('width', '99%');
+            if($input.val())  $wikiImgContainer.WikipediaWidget($input.val());
         });
+
+        $btn_toTxt.click(function () {
+        $btn_toImg.toggleClass("hidden");
+        $btn_toTxt.toggleClass("hidden");
+       $ ( '[data-toggle="tooltip"]').hide();
+       $ ( ".btn_container a").attr('data-original-title', 'View Images');
+       $ ( '[data-toggle="tooltip"]').show();
+       document.querySelector("#theCard").classList.toggle("flip")
+       resizeTxtContainer()
+        });
+
+        $btn_toImg.click(function () {
+            $btn_toImg.toggleClass("hidden");
+            $btn_toTxt.toggleClass("hidden");
+            $ ( '[data-toggle="tooltip"]').hide();
+            $ ( ".btn_container a").attr('data-original-title', 'View Text');
+            $ ( '[data-toggle="tooltip"]').show();
+            document.querySelector("#theCard").classList.toggle("flip");
+            collage();
+        });
+
+       $ ( '[data-toggle="tooltip"]').tooltip({'placement': 'top', 'animation': true})
+       $btn_toTxt.toggleClass("hidden");
     });
 });
 
@@ -22,10 +51,24 @@ function collage() {
     $('.Collage').removeWhitespace().collagePlus(
         {
             'fadeSpeed'     : 2000,
-            'targetHeight'  : 200,
+            'targetHeight'  : 400,
             'effect'        : "effect-5"
         }
     );
+
+    resizeFlipContainer();
+}
+
+function resizeFlipContainer() {
+    var jumbotronSize = ($( '#wikiImgContainer' ).height() + 100) + 'px';
+ //   console.log(jumbotronSize)
+    $( '.flip-container' ).css( 'height', jumbotronSize);
+}
+
+function resizeTxtContainer() {
+    var jumbotronSize = ($( '#wikiTxtContainer' ).height() + 100) + 'px';
+    //   console.log(jumbotronSize)
+    $( '.flip-container' ).css( 'height', jumbotronSize);
 }
 
 // This is just for the case that the browser window is resized

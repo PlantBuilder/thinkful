@@ -20,7 +20,7 @@
 
         var defaults = {
             // the ideal height you want your images to be
-            'targetHeight'          : 500,
+            'targetHeight'          : 400,
             // width of the area the collage will be in
             'albumWidth'            : this.width(),
             // padding between the images. Using padding left as we assume padding is even all the way round
@@ -35,7 +35,7 @@
             'effect'                : 'effect-5',
             // effect delays can either be applied per row to give the impression of descending appearance
             // or horizontally, so more like a flock of birds changing direction
-            'direction'             : 'vertical',
+            'direction'             : 'horizontal',
             // Sometimes there is just one image on the last row and it gets blown up to a huge size to fit the
             // parent div width. To stop this behaviour, set this to true
             'allowPartialLastRow'   : true

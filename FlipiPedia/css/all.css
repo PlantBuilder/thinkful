@@ -69,23 +69,48 @@ p#appstore {
   text-align: center;
 }
 
-@media (max-width: 767px) {
-  .content {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-  }
+.btn_container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
 }
 
-div#btn_demo2 {
-    position:absolute;
-    top:20px;
-    right:20px;
-    width:40px;
-    height:40px;
-    opacity:0.8;
-    background: url(../img/btn_transfer.png) no-repeat left center;
-  }
+#scene {
+ height: 768px;
+ width: 1024px;
+    -webkit-perspective: 1300;
+    -moz-perspective: 1300;
+    -ms-perspective: 1300;
+    perspective: 1300;
+}
+
+.card {
+    position: absolute;
+    height: 300px;
+    width:400px;
+    left: 75px;
+    top:250px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#btn_toTxt {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+    background: url(../img/btn_toTxt.png) no-repeat left center;
+}
+
+#btn_toImg {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+    background: url(../img/btn_toImg.png) no-repeat left center;
+}
 
 .logoTop {
     -webkit-transform: translateX(85px) /*translateY(-40px)*/ scaleX(-1);
@@ -112,8 +137,12 @@ div#btn_demo2 {
 }
 
 #logo_wikipedia {
-    opacity: 0.25;
+   opacity: 0.25;
    float: right;
+}
+
+.hidden {
+    display: none;
 }
 /*
 .jumbotron {
@@ -151,6 +180,19 @@ div#btn_demo2 {
     border:6px solid #FFF;
 }
 
+.Caption{
+    color: white;
+    font-size:12px;
+    font-weight:normal;
+    font-family:"Voces", sans-serif;
+}
+
+.Caption_Content{
+    /* padding:10px; */
+    color:#FFF;
+    padding:20px;
+}
+
 
 /* In this example, this is the main item being resized */
 .Image_Wrapper{
@@ -162,4 +204,82 @@ div#btn_demo2 {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+    -webkit-perspective: 1300;
+    perspective: 1000;
+}
+
+.flip-container.flip .flipper {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+ /*flip the pane when hovered
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+*/
+.flip-container, .front, .back {
+    width: inherit;
+    height: inherit;
+}
+
+/* flip speed goes here */
+.flipper {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+img#sisyphus {
+    display: block;
+    margin: 0;
+    height: 337px; /* 375px; */
+    width: 162px;
+}
+    }
+@media (min-width: 768px) and (max-width: 979px) {
+    img#sisyphus {
+        height: 375px;
+        width: 162px;
+    }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+    img#sisyphus {
+        height: 500px;
+        width: 216px;
+    }
+}
+@media (min-width: 1200px) {
+    img#sisyphus {
+        height: 625px;
+        width: 270px;
+    }
 }

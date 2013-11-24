@@ -1,5 +1,5 @@
 .ajaxLoading {margin-top:50px;text-align:center;}    
-.wikipediaContainer {
+#wikiTxtContainer {
   font-family: "Voces";
   font-size: 18px;
   overflow: hidden;
@@ -7,7 +7,7 @@
   min-height:175px;
   padding:10px;
 }
-.wikipediaContainer .bg {
+#wikiImgContainer .bg {
   position:absolute;
   bottom:20px;
   right:20px;
@@ -16,10 +16,13 @@
   background: no-repeat url('http://upload.wikimedia.org/wikipedia/commons/3/30/Wikipedia_2.0-new_prototype.png');
   opacity:0.3;
 }
-.wikipediaContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Voces";border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
-.wikipediaContainer .wikipediaLogo {width:150px;float:left;margin-right:20px;}
-.wikipediaContainer .wikipediaDescription {float:right;width:430px;}
+#wikiTxtContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Voces";border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
+#wikiTxtContainer .wikipediaLogo {width:150px;float:left;margin-right:20px;}
+#wikiTxtContainer .wikipediaDescription {float:right; width:99%;}
+/*
 .wikipediaContainer ul.wikipediaThumbGallery {float:left;width:600px;list-style:none;padding:0;}
 .wikipediaContainer ul.wikipediaThumbGallery li {display:inline-block;float:left;margin:0 10px 10px 0;}
-.wikipediaContainer table.wikipediaInfoTable {float:left;width:600px;}
-.wikipediaContainer .clear {clear:both;}
+*/
+#wikiTxtContainer table.wikipediaInfoTable {float:left;margin-top:20px}   /*  width:600px;  */
+#wikiTxtContainer .clear {clear:both;}
+#wikiImgContainer .clear {clear:both;}

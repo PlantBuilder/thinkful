@@ -22,6 +22,7 @@
     <link href="css/transitions.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.wikipedia.css">
     <script src="../lib/jquery.js"></script>
+    <script src="../lib/Bootstrap/js/bootstrap.js"></script>
     <script src="js/jquery.collagePlus.js"></script>
     <script src="extras/jquery.removeWhitespace.js"></script>
     <script src="extras/jquery.collageCaption.js"></script>
@@ -33,6 +34,7 @@
   </head>
   <body>
   <div class="container">
+
     <div class="row">
         <div class="col-sm-10  col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1  content">
 
@@ -53,48 +55,48 @@
               </div>
           </div>
 
-            <div id="wikiImgContainer" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron">
-                <div id="btn_demo2"></div>
-                <div class="Collage effect-parent">
 
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-1.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-2.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-3.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-4.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-5.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-6.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-7.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-8.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-9.png" /></div>
-                    <div class="Image_Wrapper"><img src ="../support/images/ed-lea-dribbble-10.jpg"/></div>
-                </div>
+
+    <div id="theCard" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron hidden flip-container">
+      <div class="btn_container"><a data-toggle="tooltip" title="View Text"> <div id="btn_toTxt" class="hidden"></div><div id="btn_toImg" class="hidden"></div></a></div>
+        <div class="flipper">
+          <div id="wikiImgContainer" class="front">
             </div>
 
-                <div id="demo2" class="wikipediaContainer col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron ">
-                    <div class="bg"></div>
-                </div>
+          <div id="wikiTxtContainer" class="back">
+         </div>
+        </div>
+    </div>
 
-          <div class="row">
-             <div class="col-sm-10  col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1">
-                 <hr>
-                    <p id="social">
-                        <a href="#"><img alt="Follow us on Twitter" width="64" height="64" src="img/twitter.png" /></a>
-                        <a href="#"><img alt="Like us on Facebook" width="64" height="64" src="img/facebook.png" /></a>
-                        <a href="#"><img alt="Follow us on Google+" width="64" height="64" src="img/google-plus.png" /></a>
-                        <a href="#"><img alt="Read our blog" width="64" height="64" src="img/rss.png" /></a>
-                    </p>
-                 <hr>
+    <div id="errorContainer" class="col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 jumbotron">
+    <div class="Collage">
+     <div class='Image_Wrapper' data-caption="The struggle itself toward the heights is enough to fill a man's heart. One must imagine Sisyphus happy.”  - <em>Camus</em>">
+      <img class="sisyphus" alt="Bootstrap" width="681" height="337" src="img/sisyphus.png" />
+       </div>
+        </div>
+         </div>
+
+    <div class="row">
+     <div class="col-sm-10  col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1">
+       <hr>
+        <p id="social">
+         <a href="#"><img alt="Follow us on Twitter" width="64" height="64" src="img/twitter.png" /></a>
+         <a href="#"><img alt="Like us on Facebook" width="64" height="64" src="img/facebook.png" /></a>
+         <a href="#"><img alt="Follow us on Google+" width="64" height="64" src="img/google-plus.png" /></a>
+         <a href="#"><img alt="Read our blog" width="64" height="64" src="img/rss.png" /></a>
+          </p>
+           <hr>
+            </div>
              </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-6  col-md-8 col-lg-10 col-md-offset-2 col-lg-offset-1">
-                <footer>
-                    <p>
-                        Project &copy; Thinkful
-                        <span class="pull-right"><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
-                    </p>
-                </footer>
+    <div class="row">
+      <div class="col-sm-6  col-md-8 col-lg-10 col-md-offset-2 col-lg-offset-1">
+        <footer>
+          <p>
+           Project &copy; Thinkful
+            <span class="pull-right"><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+             </p>
+              </footer>
             </div>
           </div>
         </div>
