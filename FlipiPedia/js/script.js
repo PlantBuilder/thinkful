@@ -1,5 +1,5 @@
-// All images need to be loaded for this plugin to work so
-// we end up waiting for the whole window to load in this example
+// Discus ways to refactor this with MarkM
+
 $(window).load(function () {
     $(document).ready(function(){
 
@@ -60,7 +60,7 @@ $(window).load(function () {
 });
 
 
-// Here we apply the actual CollagePlus plugin
+// Apply the actual CollagePlus plugin
 function collage() {
     $('.Collage').removeWhitespace().collagePlus(
         {
@@ -69,10 +69,10 @@ function collage() {
             'effect'        : "effect-5"
         }
     );
-
     resizeFlipContainer();
 }
 
+// helpers to correctly size the bg div
 function resizeFlipContainer() {
     var jumbotronSize = ($( '#wikiImgContainer' ).height() + 100) + 'px';
     $( '.flip-container' ).css( 'height', jumbotronSize);
@@ -83,10 +83,10 @@ function resizeTxtContainer() {
     $( '.flip-container' ).css( 'height', jumbotronSize);
 }
 
-// This is just for the case that the browser window is resized
+// When browser window is resized
 var resizeTimer = null;
 $(window).bind('resize', function() {
-    // hide all the images until we resize them
+    // hide all the images until we resized
     $('.Collage .Image_Wrapper').css("opacity", 0);
     // set a timer to re-apply the plugin
     if (resizeTimer) clearTimeout(resizeTimer);

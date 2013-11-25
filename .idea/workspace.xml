@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/examples.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/0.2.0-preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/support/images/ed-lea-dribbble-9.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/css/all.css" afterPath="$PROJECT_DIR$/FlipiPedia/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/index.html" afterPath="$PROJECT_DIR$/FlipiPedia/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" afterPath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" afterPath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/js/script.js" afterPath="$PROJECT_DIR$/FlipiPedia/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="135" selection-start="4620" selection-end="4620" vertical-scroll-proportion="-21.875" vertical-offset="750" max-vertical-offset="1530">
+            <state line="94" column="8" selection-start="4555" selection-end="4555" vertical-scroll-proportion="0.86445785" vertical-offset="836" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -63,16 +48,23 @@
       <file leaf-file-name="jquery.wikipedia.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1495" selection-end="1538" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1530">
+            <state line="65" column="0" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sisyphus.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlipiPedia/img/sisyphus.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="72" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.5991441" vertical-offset="45" max-vertical-offset="1470">
+            <state line="88" column="43" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -116,17 +108,17 @@
         <option value="$PROJECT_DIR$/Wikipedia-master/css/jquery.wikipedia.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/css/all.css" />
         <option value="$PROJECT_DIR$/ShoppingList_2/script.js" />
-        <option value="$PROJECT_DIR$/FlipiPedia/index.html" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.collagePlus.js" />
         <option value="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/script.js" />
+        <option value="$PROJECT_DIR$/FlipiPedia/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="45" />
+    <option name="x" value="26" />
+    <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="847" />
   </component>
@@ -210,6 +202,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlipiPedia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -218,16 +228,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -246,6 +256,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -254,14 +272,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -303,8 +313,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="45" width="1436" height="847" extended-state="0" />
-    <editor active="false" />
+    <frame x="26" y="22" width="1436" height="847" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -317,7 +327,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24172662" sideWeight="0.57228017" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24172662" sideWeight="0.57228017" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -345,9 +355,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25666413" sideWeight="0.6710037" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -421,9 +431,23 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="43" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="138" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="3314" selection-end="3314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
@@ -437,21 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="135" selection-start="4620" selection-end="4620" vertical-scroll-proportion="-21.875" vertical-offset="750" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1495" selection-end="1538" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="72" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.5991441" vertical-offset="45" max-vertical-offset="1470">
+        <state line="94" column="8" selection-start="4555" selection-end="4555" vertical-scroll-proportion="0.86445785" vertical-offset="836" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
