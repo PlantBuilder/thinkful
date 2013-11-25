@@ -45,6 +45,10 @@ footer, footer a, footer a:hover {
   color: #999999;
 }
 
+footer p span {
+    white-space: nowrap;
+}
+
 .jumbotron {
     z-index: 1;
     margin-top: 2em;
@@ -61,11 +65,8 @@ footer, footer a, footer a:hover {
   margin-top: 0;
 }
 
-p#appstore {
-  margin-top: 2em;
-}
-
 #social {
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -136,33 +137,9 @@ p#appstore {
     transition: all 1s ease-in;
 }
 
-#logo_wikipedia {
-   opacity: 0.25;
-   float: right;
-}
-
 .hidden {
     display: none;
 }
-/*
-.jumbotron {
-    -webkit-transform: scaleX(1);
-    transform:  scaleX(1);
-
-    -webkit-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-}
-
-.jumbotron:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-
-
-    -webkit-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-}
-*/
-
 
 .Collage{
 
@@ -208,7 +185,7 @@ p#appstore {
 
 /* entire container, keeps perspective */
 .flip-container {
-    -webkit-perspective: 1300;
+    -webkit-perspective: 1000;
     perspective: 1000;
 }
 
@@ -217,12 +194,6 @@ p#appstore {
     transform: rotateY(180deg);
 }
 
- /*flip the pane when hovered
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-*/
 .flip-container, .front, .back {
     width: inherit;
     height: inherit;
@@ -234,7 +205,6 @@ p#appstore {
     transition: 0.6s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-
     position: relative;
 }
 
@@ -256,30 +226,4 @@ p#appstore {
 .back {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-}
-
-img#sisyphus {
-    display: block;
-    margin: 0;
-    height: 337px; /* 375px; */
-    width: 162px;
-}
-    }
-@media (min-width: 768px) and (max-width: 979px) {
-    img#sisyphus {
-        height: 375px;
-        width: 162px;
-    }
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-    img#sisyphus {
-        height: 500px;
-        width: 216px;
-    }
-}
-@media (min-width: 1200px) {
-    img#sisyphus {
-        height: 625px;
-        width: 270px;
-    }
 }

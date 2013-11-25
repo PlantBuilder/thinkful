@@ -7,22 +7,9 @@
   min-height:175px;
   padding:10px;
 }
-#wikiImgContainer .bg {
-  position:absolute;
-  bottom:20px;
-  right:20px;
-  width:135px;
-  height:155px;
-  background: no-repeat url('http://upload.wikimedia.org/wikipedia/commons/3/30/Wikipedia_2.0-new_prototype.png');
-  opacity:0.3;
-}
 #wikiTxtContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Voces";border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
-#wikiTxtContainer .wikipediaLogo {width:150px;float:left;margin-right:20px;}
+#wikiImgContainer .wikipediaError {text-align:center;height:25px;font:16px "Voces";border-radius:5px;background:#DF4343;color:white;line-height:25px;}
 #wikiTxtContainer .wikipediaDescription {float:right; width:99%;}
-/*
-.wikipediaContainer ul.wikipediaThumbGallery {float:left;width:600px;list-style:none;padding:0;}
-.wikipediaContainer ul.wikipediaThumbGallery li {display:inline-block;float:left;margin:0 10px 10px 0;}
-*/
-#wikiTxtContainer table.wikipediaInfoTable {float:left;margin-top:20px}   /*  width:600px;  */
+#wikiTxtContainer .wikipediaLink {float:right;font:10px;}
 #wikiTxtContainer .clear {clear:both;}
 #wikiImgContainer .clear {clear:both;}

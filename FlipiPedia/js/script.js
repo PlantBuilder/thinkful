@@ -10,14 +10,28 @@ $(window).load(function () {
         var $input              = $( "input[name='listInput']" );
         var $btn_toTxt          = $( "#btn_toTxt" );
         var $btn_toImg          = $( "#btn_toImg" );
-        var $flipContainer      = $( '.flip-container' );
+        var $theCard            = $( '#theCard' );
         var $wikiImgContainer   = $( '#wikiImgContainer' );
 
         $btn_search.click(function () {
-            var success, num, txt, count;
-            // grab the random number
+            if ($theCard.hasClass('hidden')) {
+                $theCard.removeClass('hidden');
+            }
+            if ($theCard.hasClass('flip')) {
+                $wikiImgContainer.find('div').remove();
+                document.querySelector("#theCard").classList.toggle("flip");
+                $btn_toImg.addClass('hidden')
+            }
             $wikiImgContainer.css('width', '99%');
             if($input.val())  $wikiImgContainer.WikipediaWidget($input.val());
+        });
+
+        $input.on("keypress", function (event) {
+            if (event.which == 13) {
+                if(jQuery.trim($input.val()).length > 0) {
+                    $btn_search.trigger('click');
+                }
+            }
         });
 
         $btn_toTxt.click(function () {
@@ -40,7 +54,7 @@ $(window).load(function () {
             collage();
         });
 
-       $ ( '[data-toggle="tooltip"]').tooltip({'placement': 'top', 'animation': true})
+       $ ( '[data-toggle="tooltip"]' ).tooltip({ 'animation': true})
        $btn_toTxt.toggleClass("hidden");
     });
 });
@@ -61,13 +75,11 @@ function collage() {
 
 function resizeFlipContainer() {
     var jumbotronSize = ($( '#wikiImgContainer' ).height() + 100) + 'px';
- //   console.log(jumbotronSize)
     $( '.flip-container' ).css( 'height', jumbotronSize);
 }
 
 function resizeTxtContainer() {
     var jumbotronSize = ($( '#wikiTxtContainer' ).height() + 100) + 'px';
-    //   console.log(jumbotronSize)
     $( '.flip-container' ).css( 'height', jumbotronSize);
 }
 
@@ -80,44 +92,3 @@ $(window).bind('resize', function() {
     if (resizeTimer) clearTimeout(resizeTimer);
     resizeTimer = setTimeout(collage, 200);
 });
- /*
-    var $btn_search =  $( "#btn_search" );
-    var $input        = $( "input[name='listInput']" );
-
-    $btn_search.click(function () {
-        var success, num, txt, count;
-        // grab the random number
-       if($input.val())  $('#demo1').WikipediaWidget($input.val());
-          //console.log($inp.val());
-      //  console.log(success);
-        /*
-        // is this the first guess?
-        count = $("li").length;
-        $info.hide();
-        $sub.empty();
-        $sub.show();
-        if (success > 100 || success < 1) {
-            txt =  "Between 1 and 100.";
-        } else {
-            txt = responseTxt((success - num), count);
-        }
-        count = count+1;
-        if(success == num) {
-            $sub.text( "YOU WON! Play again?" );
-            $ul_current.prepend( '<li class="winner"> #' + count + ': ' + success + ' YOU WON!' );
-            // que player to choose New Game...
-            $btn_guess.animate({color: '#BBBBBB'}, 1000);
-            $btn_newGame.animate({color: '#F5F5F5'}, 1000);
-            // changed the look to make it more visible.
-
-        } else {
-            $sub.text( txt );
-            // Descending Order: I changed to 'prepend' as it is easier to read 'li' when current one is on top
-            $ul_current.prepend( '<li> #' + count + ': ' + success + ' (' + txt + ')' );
-        }
-
-    });
-//    $('#demo1').WikipediaWidget('Stuttgart');
-//      $('#demo1').WikipediaWidget('Albert Einstein', { 'showTitle' : true, 'maxThumbnails' : 6 });
-});
-*/
