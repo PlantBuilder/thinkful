@@ -40,7 +40,7 @@ $(window).load(function () {
        $ ( '[data-toggle="tooltip"]').hide();
        $ ( ".btn_container a").attr('data-original-title', 'View Images');
        $ ( '[data-toggle="tooltip"]').show();
-       document.querySelector("#theCard").classList.toggle("flip")
+       document.querySelector("#theCard").classList.toggle("flip");
        resizeTxtContainer()
         });
 

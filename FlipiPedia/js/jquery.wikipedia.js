@@ -41,6 +41,7 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     if(parsedata.parse) {
     // deal with text.
     var content = $(parsedata.parse.text["*"]).wrap('<div></div>').parent();
+
     // tricky-captions and images are in two different objects.
     var Captions = content.find('.thumbinner');
     var Thumbnails = content.find('img.thumbimage');
@@ -59,9 +60,13 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     $wikiTxtContainer.append('<div class="wikipediaTitle"></div>').find('.wikipediaTitle').html(parsedata.parse.title);
     // grab/append the first couple paragraphs
     var descriptionArray = content.find('p');
+    if(descriptionArray.length > 0) {
     var description = descriptionArray[0].innerText + '<br>';
     description +=  descriptionArray[1].innerText + '<br>';
     description +=  descriptionArray[2].innerText;
+    } else {
+     description = content;
+    }
     $wikiTxtContainer.append('<div class="wikipediaDescription"></div>').find('.wikipediaDescription').append(description);
 
      // create a link to Wikipedia article, open in another tab to preserve this page
