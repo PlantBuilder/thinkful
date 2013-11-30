@@ -1,18 +1,17 @@
 /* 
  *  jQuery Plugin - Wikipedia V1.0.0
  *  
- *  Autor: Marcel Grolms - www.suabo.de 2013
+ *  Author: Marcel Grolms - www.suabo.de 2013
  */ 
 $.fn.WikipediaWidget = function(wikipediaPage, options) {
   var $wikiImgContainer = $( '#wikiImgContainer' );
   var $wikiTxtContainer = $( '#wikiTxtContainer' );
-  //init defaults
-  var showTitle = true;
+  //init default
   var maxThumbnails = 24;
 
   //check if pagetitle is set
   if(wikipediaPage == undefined) { console.log('No Wikipedia search titles ! started No query!');return; };
-  // tlet them know we are going out to get data
+  // let them know we are going out to get data
     $wikiImgContainer.append('<div class="ajaxLoading"><img src="img/ajax-loader.gif"></div>');
     resizeFlipContainer();
 
@@ -56,6 +55,7 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
       $wikiImgContainer.append($('<div class="clear"></div>'));
       $("#btn_toTxt").removeClass('hidden');
 
+
     // Back to the text insert title
     $wikiTxtContainer.append('<div class="wikipediaTitle"></div>').find('.wikipediaTitle').html(parsedata.parse.title);
     // grab/append the first couple paragraphs
@@ -69,11 +69,11 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     }
     $wikiTxtContainer.append('<div class="wikipediaDescription"></div>').find('.wikipediaDescription').append(description);
 
+
      // create a link to Wikipedia article, open in another tab to preserve this page
-      var wLink = '<a href = "http://en.wikipedia.org/wiki/' + wikipediaPage + '\" target="_blank">Read Wikipedia Article</a>';
+      var wLink = '<a href = "http://en.wikipedia.org/wiki/' + wikipediaPage + '\" target="_blank">Read Wikipedia Article</a>' + '&nbsp; &nbsp;';
       $wikiTxtContainer.append($('<div class="clear"></div>'));
       $wikiTxtContainer.append('<div class="wikipediaLink"></div>').find('.wikipediaLink').append(wLink);
-
       $wikiTxtContainer.append($('<div class="clear"></div>'));
 
         // sometimes there the disambugation page shows up. No images...
@@ -85,4 +85,3 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     }
   })
 };
-

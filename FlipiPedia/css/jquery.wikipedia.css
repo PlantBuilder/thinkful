@@ -9,7 +9,7 @@
 }
 #wikiTxtContainer .wikipediaTitle {text-align:center;height:30px;font:20px "Voces";border-radius:5px 5px 0 0;background:#fff;margin:-5px 0 10px 0;line-height:30px;}
 #wikiImgContainer .wikipediaError {text-align:center;height:25px;font:16px "Voces";border-radius:5px;background:#DF4343;color:white;line-height:25px;}
-#wikiTxtContainer .wikipediaDescription {float:right; width:99%;}
-#wikiTxtContainer .wikipediaLink {float:right;font:10px;}
+#wikiTxtContainer .wikipediaDescription {float:right; width:99%; padding:10px;}
+#wikiTxtContainer .wikipediaLink {float:right;font:10px; margin-right:15px;}
 #wikiTxtContainer .clear {clear:both;}
 #wikiImgContainer .clear {clear:both;}

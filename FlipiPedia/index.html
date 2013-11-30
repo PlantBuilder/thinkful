@@ -42,7 +42,7 @@
           <h2>Wikipedia - Search</h2>
           <hr>
           <div class="row">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-6 col-xs-offset-2 col-sm-offset-2 col-med-offset-5 col-lg-offset-3">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-med-offset-5 col-lg-offset-3">
                 <div class="input-group">
                     <input required="required" pattern="^\S" type="text" class="form-control" name="listInput" autocomplete="off" placeholder="Wikipedia title..."/>
                     <span class="input-group-btn">
@@ -54,20 +54,21 @@
 
 
 
-    <div id="theCard" class="col-xs-8 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 jumbotron hidden flip-container">
+    <div id="theCard" class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 hidden flip-container">
       <div class="btn_container"><a data-toggle="tooltip" title="View Text"> <div id="btn_toTxt" class="hidden"></div><div id="btn_toImg" class="hidden"></div></a></div>
         <div class="flipper">
-          <div id="wikiImgContainer" class="front">
+          <div id="wikiImgContainer" class="front jumbotron">
             </div>
 
-          <div id="wikiTxtContainer" class="back">
+          <div id="wikiTxtContainer" class="back jumbotron">
          </div>
         </div>
     </div>
 
-    <div class="row">
+
+   <div class="row">
      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1" >
-       <hr>
+       <hr id="hr_social">
         <p id="social">
          <a href="https://twitter.com/notebuilder" target="_blank" data-toggle="tooltip" data-placement="left" title data-original-title="Follow me on Twitter"><img width="64" height="64" src="img/twitter.png" /></a>
          <a href="https://wwww.facebook.com/james.cavanaugh.18" target='_blank'data-toggle="tooltip" title data-original-title="Friend me on Facebook"><img width="64" height="64" src="img/facebook.png" /></a>
@@ -76,7 +77,9 @@
         </p>
        <hr>
      </div>
-    </div>
+   </div>
+
+
 
     <div class="row">
       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
@@ -87,6 +90,9 @@
         </footer>
       </div>
     </div>
+
+
+
   </div>
   </div>
   </div>

@@ -10,18 +10,22 @@ $(window).load(function () {
         var $input              = $( "input[name='listInput']" );
         var $btn_toTxt          = $( "#btn_toTxt" );
         var $btn_toImg          = $( "#btn_toImg" );
-        var $theCard            = $( '#theCard' );
-        var $wikiImgContainer   = $( '#wikiImgContainer' );
+        var $theCard            = $( "#theCard" );
+        var $wikiImgContainer   = $( "#wikiImgContainer" );
+        var $tooltip            = $( '[data-toggle="tooltip"]' );
+        var $btn_cntnr          = $( '.btn_container a' );
 
         $btn_search.click(function () {
             if ($theCard.hasClass('hidden')) {
                 $theCard.removeClass('hidden');
             }
+
             if ($theCard.hasClass('flip')) {
                 $wikiImgContainer.find('div').remove();
                 document.querySelector("#theCard").classList.toggle("flip");
                 $btn_toImg.addClass('hidden')
             }
+
             $wikiImgContainer.css('width', '99%');
             if($input.val())  $wikiImgContainer.WikipediaWidget($input.val());
         });
@@ -35,27 +39,27 @@ $(window).load(function () {
         });
 
         $btn_toTxt.click(function () {
+        $('.Collage').addClass('hidden');
         $btn_toImg.toggleClass("hidden");
         $btn_toTxt.toggleClass("hidden");
-       $ ( '[data-toggle="tooltip"]').hide();
-       $ ( ".btn_container a").attr('data-original-title', 'View Images');
-       $ ( '[data-toggle="tooltip"]').show();
-       document.querySelector("#theCard").classList.toggle("flip");
-       resizeTxtContainer()
+        $tooltip.hide();
+        $btn_cntnr.attr('data-original-title', 'View Images');
+        $tooltip.show();
+        document.querySelector("#theCard").classList.toggle("flip");
+        resizeTxtContainer();
         });
 
         $btn_toImg.click(function () {
+            $('.Collage').removeClass('hidden');
             $btn_toImg.toggleClass("hidden");
             $btn_toTxt.toggleClass("hidden");
-            $ ( '[data-toggle="tooltip"]').hide();
-            $ ( ".btn_container a").attr('data-original-title', 'View Text');
-            $ ( '[data-toggle="tooltip"]').show();
+            $tooltip.hide();
+            $btn_cntnr.attr('data-original-title', 'View Text');
+            $tooltip.show();
             document.querySelector("#theCard").classList.toggle("flip");
             collage();
         });
-
-       $ ( '[data-toggle="tooltip"]' ).tooltip({ 'animation': true})
-       $btn_toTxt.toggleClass("hidden");
+        $tooltip.tooltip({ 'animation': true});
     });
 });
 
@@ -74,21 +78,31 @@ function collage() {
 
 // helpers to correctly size the bg div
 function resizeFlipContainer() {
-    var jumbotronSize = ($( '#wikiImgContainer' ).height() + 100) + 'px';
-    $( '.flip-container' ).css( 'height', jumbotronSize);
+    var h = $( ".Collage" ).height();
+    $( "#wikiImgContainer" ).css( 'height', (h + 120) + 'px');
+    $( "#theCard" ).css( 'height', (h + 200) + 'px');
 }
 
 function resizeTxtContainer() {
-    var jumbotronSize = ($( '#wikiTxtContainer' ).height() + 100) + 'px';
-    $( '.flip-container' ).css( 'height', jumbotronSize);
+    var $wD = $( ".wikipediaDescription" );
+    var h =  $wD.height();
+    $( "#wikiTxtContainer" ).css( 'height', (h + 174) + 'px');
+    $( "#theCard" ).css( 'height', (h + 254) + 'px');
+    $wD.on('click', 'a', function(event) {
+       event.preventDefault();
+    });
 }
 
 // When browser window is resized
 var resizeTimer = null;
 $(window).bind('resize', function() {
-    // hide all the images until we resized
+    if ($('#btn_toImg').hasClass('hidden')) {
+    // hide all the images until resize
     $('.Collage .Image_Wrapper').css("opacity", 0);
     // set a timer to re-apply the plugin
     if (resizeTimer) clearTimeout(resizeTimer);
     resizeTimer = setTimeout(collage, 200);
+ } else {
+    resizeTxtContainer()
+    }
 });

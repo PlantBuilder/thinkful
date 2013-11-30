@@ -66,37 +66,16 @@ footer p span {
 }
 
 #social {
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .btn_container {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: -62px;
+    right: -20px;
     width: 40px;
     height: 40px;
-}
-
-#scene {
- height: 768px;
- width: 1024px;
-    -webkit-perspective: 1300;
-    -moz-perspective: 1300;
-    -ms-perspective: 1300;
-    perspective: 1300;
-}
-
-.card {
-    position: absolute;
-    height: 300px;
-    width:400px;
-    left: 75px;
-    top:250px;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
 }
 
 #btn_toTxt {
@@ -195,8 +174,7 @@ footer p span {
 }
 
 .flip-container, .front, .back {
-    width: inherit;
-    height: inherit;
+
 }
 
 /* flip speed goes here */
@@ -226,4 +204,16 @@ footer p span {
 .back {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+#wikiTxtContainer {
+    margin-top: 1px;
+}
+
+#wikiImgContainer {
+    margin-top: -1px;
+}
+
+#btn_search {
+    margin-bottom: 25px;
 }
