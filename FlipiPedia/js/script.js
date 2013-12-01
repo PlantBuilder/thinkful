@@ -39,7 +39,8 @@ $(window).load(function () {
         });
 
         $btn_toTxt.click(function () {
-        $('.Collage').addClass('hidden');
+        $('div.Collage').hide();
+//        $('.Collage').addClass('hidden');
         $btn_toImg.toggleClass("hidden");
         $btn_toTxt.toggleClass("hidden");
         $tooltip.hide();
@@ -50,7 +51,8 @@ $(window).load(function () {
         });
 
         $btn_toImg.click(function () {
-            $('.Collage').removeClass('hidden');
+            $('div.Collage').show();
+//            $('.Collage').removeClass('hidden');
             $btn_toImg.toggleClass("hidden");
             $btn_toTxt.toggleClass("hidden");
             $tooltip.hide();
@@ -73,6 +75,7 @@ function collage() {
             'effect'        : "effect-5"
         }
     );
+    $(' div.Collage' ).css("visibility", "visible");
     resizeFlipContainer();
 }
 
@@ -88,9 +91,15 @@ function resizeTxtContainer() {
     var h =  $wD.height();
     $( "#wikiTxtContainer" ).css( 'height', (h + 174) + 'px');
     $( "#theCard" ).css( 'height', (h + 254) + 'px');
-    $wD.on('click', 'a', function(event) {
-       event.preventDefault();
+    $("a[href^='/wiki/']").prop('href', function() { return this.href.replace("\/wiki\/", "http://en.wikipedia.org/wiki/"); })
+
+    $wD.on('click', 'a[href]', function(event) {
+        var foo = $(this).attr('href').split('http://');
+        console.log(foo);
+        $(this.currentTarget).attr('href', foo[0]+foo[2]);
+        console.log(event);
     });
+    $( "#wikiImgContainer" ).css( 'height', (h + 174) + 'px');
 }
 
 // When browser window is resized
@@ -98,7 +107,7 @@ var resizeTimer = null;
 $(window).bind('resize', function() {
     if ($('#btn_toImg').hasClass('hidden')) {
     // hide all the images until resize
-    $('.Collage .Image_Wrapper').css("opacity", 0);
+   $('div.Collage' ).css("visibility", "hidden");//({"opacity": 0, "color": "white"});
     // set a timer to re-apply the plugin
     if (resizeTimer) clearTimeout(resizeTimer);
     resizeTimer = setTimeout(collage, 200);
