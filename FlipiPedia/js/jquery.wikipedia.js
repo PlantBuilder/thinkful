@@ -22,12 +22,9 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     $wikiTxtContainer.find('.ajaxLoading').remove();
     $wikiImgContainer.find('div').remove();
     $wikiTxtContainer.find('div').remove();
-//    $(parsedata.parse.text["a[href^='/wiki/']"]).prop('href', function() { return this.href.replace("\/wiki\/", "http://en.wikipedia.org/wiki/"); })
-    console.dir(parsedata)
 
-    // catch and deal with errors
+    // catch and deal with gibberish errors
     if( typeof parsedata.error != 'undefined') {
-        // user typed in gibberish
         eImage = $("<img />").attr('src', './img/sisyphus.png').load();
         eImage.attr({width:'681px', height:'337px'})
         eMessage = parsedata.error.info;
@@ -42,10 +39,9 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
     if(parsedata.parse) {
     // deal with text.
     content = $(parsedata.parse.text["*"]).wrap('<div></div>').parent();
-    console.dir(content)
     // tricky-captions and images are in two different objects.
     Captions = content.find('.thumbinner');
-    if(Captions.length > 1) {
+    if(Captions.length >= 1) {
         Thumbnails = content.find('img.thumbimage');
         $wikiImgContainer.append('<div class="Collage effect-parent"></div>');
         $.each(Thumbnails, function(index, Thumbnail) {
@@ -65,29 +61,31 @@ $.fn.WikipediaWidget = function(wikipediaPage, options) {
 
     descriptionArray = content.find('p');
     if( descriptionArray.length > 2 ) {
-        console.dir(descriptionArray)
         description = '';
         for(i=0; i<3; i++) {
         description += descriptionArray[i].innerText + '<br>';
         }
     } else {
     description = content;
-//    console.dir(description)
     }
     $wikiTxtContainer.append('<div class="wikipediaDescription"></div>').find('.wikipediaDescription').append(description);
     $wikiTxtContainer.css({"font-size": "16px", "float": "right"})
 
-     // create a link to Wikipedia article, open in another tab to preserve this page
       var wLink = '<a href = "http://en.wikipedia.org/wiki/' + wikipediaPage + '\" target="_blank">Read Wikipedia Article</a>' + '&nbsp; &nbsp;';
       $wikiTxtContainer.append($('<div class="clear"></div>'));
       $wikiTxtContainer.append('<div class="wikipediaLink"></div>').find('.wikipediaLink').append(wLink);
       $wikiTxtContainer.append($('<div class="clear"></div>'));
 
         if(Captions.length == 0) {
+            var $wD =  $('.wikipediaDescription')
+            // a little housekeeping along with h2 margin change in jQ.wikipedia.css
+            $wikiTxtContainer.css({"font-size": "12px", "float": "left", "minWidth": "99%"});
+            $wD.find($("div#toc.toc")).remove(); // Hide toc
+            $wD.find('div table').remove();  // remove the link to wiktionary
+            $wD.find('.mw-editsection').remove();  // removes the [Edit] hrefs on the h2's
             $("#btn_toTxt").trigger('click');
             $("#btn_toImg").addClass('hidden');
-            $wikiTxtContainer.css({"font-size": "12px", "float": "left"})
-            resizeTxtContainer();
+            $("#btn_toTxt").addClass('hidden');
         }
     }
   })

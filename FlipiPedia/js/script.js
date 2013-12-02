@@ -38,15 +38,20 @@ $(window).load(function () {
             }
         });
 
+        $input.on('mouseup', function () {
+            $(this).select();
+        });
+
         $btn_toTxt.click(function () {
         $('div.Collage').hide();
-//        $('.Collage').addClass('hidden');
         $btn_toImg.toggleClass("hidden");
         $btn_toTxt.toggleClass("hidden");
         $tooltip.hide();
         $btn_cntnr.attr('data-original-title', 'View Images');
         $tooltip.show();
-        document.querySelector("#theCard").classList.toggle("flip");
+            if (!($theCard.hasClass('flip'))) {
+            document.querySelector("#theCard").classList.toggle("flip");
+            }
         resizeTxtContainer();
         });
 
@@ -58,7 +63,9 @@ $(window).load(function () {
             $tooltip.hide();
             $btn_cntnr.attr('data-original-title', 'View Text');
             $tooltip.show();
+            if ($theCard.hasClass('flip')) {
             document.querySelector("#theCard").classList.toggle("flip");
+            }
             collage();
         });
         $tooltip.tooltip({ 'animation': true});
@@ -91,13 +98,13 @@ function resizeTxtContainer() {
     var h =  $wD.height();
     $( "#wikiTxtContainer" ).css( 'height', (h + 174) + 'px');
     $( "#theCard" ).css( 'height', (h + 254) + 'px');
-    $("a[href^='/wiki/']").prop('href', function() { return this.href.replace("\/wiki\/", "http://en.wikipedia.org/wiki/"); })
 
     $wD.on('click', 'a[href]', function(event) {
-        var foo = $(this).attr('href').split('http://');
-        console.log(foo);
-        $(this.currentTarget).attr('href', foo[0]+foo[2]);
-        console.log(event);
+        var foo = $(this).attr('href').split('/');
+        foo = foo[foo.length-1];
+        $( "input[name='listInput']").val(foo);
+        $("#btn_search").trigger('click');
+        event.preventDefault()
     });
     $( "#wikiImgContainer" ).css( 'height', (h + 174) + 'px');
 }
@@ -105,9 +112,9 @@ function resizeTxtContainer() {
 // When browser window is resized
 var resizeTimer = null;
 $(window).bind('resize', function() {
-    if ($('#btn_toImg').hasClass('hidden')) {
+    if ($('.Collage').css('display') == 'block') {
     // hide all the images until resize
-   $('div.Collage' ).css("visibility", "hidden");//({"opacity": 0, "color": "white"});
+   $('div.Collage' ).css("visibility", "hidden");
     // set a timer to re-apply the plugin
     if (resizeTimer) clearTimeout(resizeTimer);
     resizeTimer = setTimeout(collage, 200);
