@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/index.html" afterPath="$PROJECT_DIR$/FlipiPedia/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" afterPath="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" afterPath="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlipiPedia/js/script.js" afterPath="$PROJECT_DIR$/FlipiPedia/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_3/index.html" afterPath="$PROJECT_DIR$/ShoppingList_3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_3/main.css" afterPath="$PROJECT_DIR$/ShoppingList_3/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_2/script.js" afterPath="$PROJECT_DIR$/ShoppingList_2/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_3/script.js" afterPath="$PROJECT_DIR$/ShoppingList_3/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
@@ -29,55 +29,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="243" selection-end="243" vertical-scroll-proportion="31.666666" vertical-offset="850" max-vertical-offset="1545">
+            <state line="31" column="24" selection-start="890" selection-end="890" vertical-scroll-proportion="0.66906476" vertical-offset="0" max-vertical-offset="695">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_3/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="57" selection-start="603" selection-end="612" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
-              <folding />
+            <state line="131" column="60" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2865">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0" vertical-offset="2643" max-vertical-offset="3375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.wikipedia.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="52" selection-start="4461" selection-end="4461" vertical-scroll-proportion="-12.941176" vertical-offset="570" max-vertical-offset="1410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="76" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.48770493" vertical-offset="1218" max-vertical-offset="1950">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.wikipedia.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="52" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="175" column="18" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2730">
               <folding />
             </state>
           </provider>
@@ -101,28 +76,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ShoppingList_3/main.css" />
-        <option value="$PROJECT_DIR$/ShoppingList_3/script.js" />
-        <option value="$PROJECT_DIR$/ShoppingList_3/index.html" />
         <option value="$PROJECT_DIR$/QuotesQuiz/style.css" />
         <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
         <option value="$PROJECT_DIR$/HotCold_2/script.js" />
         <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
         <option value="$PROJECT_DIR$/ed-lea-jquery-collagePlus/jquery.collagePlus.js" />
         <option value="$PROJECT_DIR$/Wikipedia-master/css/jquery.wikipedia.css" />
-        <option value="$PROJECT_DIR$/ShoppingList_2/script.js" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.collagePlus.js" />
-        <option value="$PROJECT_DIR$/FlipiPedia/css/all.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/index.html" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/script.js" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js" />
+        <option value="$PROJECT_DIR$/FlipiPedia/css/all.css" />
+        <option value="$PROJECT_DIR$/ShoppingList_3/main.css" />
+        <option value="$PROJECT_DIR$/ShoppingList_2/script.js" />
+        <option value="$PROJECT_DIR$/ShoppingList_3/index.html" />
+        <option value="$PROJECT_DIR$/ShoppingList_3/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="64" />
+    <option name="x" value="98" />
+    <option name="y" value="133" />
     <option name="width" value="1305" />
     <option name="height" value="878" />
   </component>
@@ -174,6 +149,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,24 +168,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppingList_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShoppingList_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HotCold_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="reference.idesettings.emmet" />
+    <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -227,7 +246,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Thinkful">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -256,7 +275,14 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Thinkful" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/thinkful/ShoppingList_3/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Thinkful" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -285,13 +311,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="64" width="1305" height="878" extended-state="0" />
+    <frame x="98" y="133" width="1305" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52638525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33552632" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24384432" sideWeight="0.42771983" order="2" side_tool="true" content_ui="tabs" />
@@ -299,7 +325,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18018721" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2668785" sideWeight="0.6644737" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2668785" sideWeight="0.47361478" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -342,43 +368,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/extras/jquery.collageCaption.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="67" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2010" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/img/LogoTop.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_3/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="55" selection-end="55" vertical-scroll-proportion="0.08746356" vertical-offset="0" max-vertical-offset="1575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.197425" vertical-offset="1536" max-vertical-offset="3135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="981" selection-end="999" vertical-scroll-proportion="0.54215115" vertical-offset="62" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/img/logoBottom.png">
@@ -398,42 +394,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="12" column="52" selection-start="641" selection-end="641" vertical-scroll-proportion="0.2503477" vertical-offset="0" max-vertical-offset="719" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="243" selection-end="243" vertical-scroll-proportion="31.666666" vertical-offset="850" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="57" selection-start="603" selection-end="612" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="2" column="152" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1545" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="0" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0" vertical-offset="2643" max-vertical-offset="3375">
+        <state line="105" column="96" selection-start="1881" selection-end="1881" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="3375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="52" selection-start="4461" selection-end="4461" vertical-scroll-proportion="-12.941176" vertical-offset="570" max-vertical-offset="1410">
-          <folding />
-        </state>
+        <state line="28" column="97" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1410" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="76" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.48770493" vertical-offset="1218" max-vertical-offset="1950">
+        <state line="104" column="0" selection-start="3424" selection-end="3471" vertical-scroll-proportion="0.5601093" vertical-offset="1150" max-vertical-offset="1950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="728" column="0" selection-start="17553" selection-end="17553" vertical-scroll-proportion="0.0" vertical-offset="10634" max-vertical-offset="132345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="18" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.0" vertical-offset="2399" max-vertical-offset="2730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="40" selection-end="1337" vertical-scroll-proportion="0.08344924" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="103" selection-end="429" vertical-scroll-proportion="0.1294964" vertical-offset="0" max-vertical-offset="695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_3/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="60" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2865">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="24" selection-start="890" selection-end="890" vertical-scroll-proportion="0.66906476" vertical-offset="0" max-vertical-offset="695">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,6 @@ $(document).ready(function () {
     var $listEntry  = $("#listEntry");
     var $sortable = $("ul.sortable").sortable();
 
-
     // delete parent icon
     $sortable.on('click', '.icon-remove', function () {
         $minusOne.trigger('click');
