@@ -3,30 +3,35 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Shopping List</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Backbone</title>
+    <link href="../lib/Bootstrap/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../lib/font-awesome/css/font-awesome.css" />
     <link rel="shortcut icon" type="image/x-icon" href="../lib/favicon.ico" />
-    <script src="../lib/jquery.js"></script>
-    <script src="../lib/jquery-sortable.js"></script>
-    <script src="script.js"></script>
+
 </head>
 <body>
 
-   <div id="header">
-    <h1>Shopping List</h1>
-   </div>
-   <div id="subheader">
-            <form>
-                <input required="required" pattern="^\S" autofocus type="text" id="listEntry" name="listInput" autocomplete="off" placeholder="Enter item and hit return..."/>
-            </form>
+<h1>My Shopping List</h1>
+<div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xs-offset-4 col-sm-offset-4 col-med-offset-4 col-lg-offset-4">
+        <div class="input-group">
+            <input required="required" pattern="^\S" autofocus type="text" class="form-control" name="listInput" autocomplete="off" placeholder="Shopping List Item..."/>
+                    <span class="input-group-btn">
+                      <button id="btn_search" class="btn btn-default" type="submit">Add Item</button>
+                    </span>
         </div>
-
-    <div id="items">
-        <ul class="sortable"></ul>
     </div>
+</div>
+<div class="tasks"></div>
 
-   <button id="foo">Alert</button>
+    <script id="taskTemplate" type="text/template">
+       <panel> {{ title }} </panel> <button type="button" class="btn btn-default edit">Edit</button> <button type="button" class="btn btn-danger delete">Delete</button>
+    </script>
 
+   <script src="../lib/underscore-min.js"></script>
+   <script src="../lib/jquery.js"></script>
+   <script src="../lib/backbone.js"></script>
+   <script src="../lib/Bootstrap/js/bootstrap.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>
