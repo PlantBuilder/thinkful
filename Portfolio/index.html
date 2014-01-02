@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="author" content="James Cavanaugh" />
+	<title>A Thinkful Journey</title>
+
+    <link rel="shortcut icon" type="image/png" href="../lib/favicon.ico">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="author" href="https://plus.google.com/+JamesCavanaughMSW"/>
+
+    <script src="../lib/jquery-1.8.2.min.js"></script>
+	<script src="../lib/jquery.scrollTo-1.4.3.1.min.js"></script>
+	<script src="../lib/jquery.easing.1.3.js"></script>
+	<script src="../lib/jquery.scrollorama.js"></script>
+	<script src="../lib/jquery.scrolldeck.js"></script>
+</head>
+<body>
+	<div class="background"></div>
+	<div id="header">
+		<h1>A Thinkful Journey</h1>
+		<div id="nav">
+			<a href="#project_title1" class="nav-button">GoogleClone</a>
+			<a href="#project_title2" class="nav-button">37Signals</a>
+            <a href="#project_title3" class="nav-button">Hot or Cold</a>
+			<a href="#project_title4" class="nav-button">ShoppingList</a>
+			<a href="#project_title5" class="nav-button">QuotesQuiz</a>
+			<a href="#project_title6" class="nav-button">Flipipedia</a>
+			<a href="#where1" class="nav-button">About</a>
+		</div>
+	</div>
+
+	<div class="slide" id="intro">
+        <div class="img-wrap" id="img-thinkful">
+        <img src="img/ThinkfuLogo.png" />
+        </div>
+		<p>a <a href="http://johnpolacek.github.com/scrolldeck.js">scrolldeck.js</a> portfolio by <a href="https://plus.google.com/+JamesCavanaughMSW" target="_blank">James Cavanaugh</a><br>
+		preparing to update <a href="http://www.notebuilder.com">NoteBuilder</a><br> to the delight of clinicians everywhere.</p>
+		<div>
+			<a href="https://twitter.com/notebuilder" class="twitter-follow-button" data-size="large" data-show-count="false" data-lang="en">Follow @notebuilder</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+        <div class="img-wrap" id="img-hand_keys">
+            <img src="img/hand_keys.png" />
+        </div>
+	</div>
+	
+	<div class="slide" id="project_title1">
+		<p>Project One <strong class="animate-in" data-animation="space-in">Google Clone</strong><small>Build familiarity with HTML and CSS3</small></p>
+	</div>
+
+    <div class="slide where" id="project_content1">
+        <div class="where-block animate-in" data-animation="fly-in-left" id="project_top_img1">
+            <a href="http://plantbuilder.github.io/thinkful/GoogleClone">
+                <img src="img/GoogleClone_sm.png" />
+            </a>
+        </div>
+        <div class="where-block animate-in" data-animation="fly-in-right"  id="project_text1">
+        <!--    <h3>Challenges</h3>   -->
+            <p><strong>Baseline: </strong>In 2006, inline styling on a personal website required minimal knowledge of
+            several css selectors. I had no real understanding of classes, id's, specificity, etc.</p>
+
+            <p><strong>Skill Development: </strong> Introductory skills referencing and positioning DOM elements;
+                using unordered lists horizontally, absolute positioning an image within a relatively positioned div, centering, floats, etc.</p>
+                <p>I struggled with creating a sticky footer but was assisted by Thinkful staff.</p>
+                <p>Along with learning tenets of HTML and CSS3, I gained skill in
+                seeing the many small details needed to create an accurate clone.</p>
+        </div>
+        <div class="where-block animate-in" id="project_comments1">
+            <h3>Google+ Comments</h3>
+            <p><strong>Frank Troglauer Jr</strong> Sep 27, 2013
+                Good morning James, superb job on this project! The only issue I see is that your navigation
+                wraps when the page is resized down horizontally. The way Google handles this is by keeping
+                it in place using white-space styling. Another method is by not setting a fixed height on div#nav
+                and instead doing min-height so the container increases as needed.
+                <a href="http://prntscr.com/1trpww">http://prntscr.com/1trpww</a></p>
+        </div>
+     </div>
+
+	<div class="slide" id="project_title2">
+        <p>Project Two <strong class="animate-in" data-animation="space-in">37Signals Clone</strong><small>Intro to jQuery, Grid Layouts, Revision Control</small></p>
+    </div>
+
+        <div class="slide where">
+
+            <div class="where-block animate-in" data-animation="fly-in-left" id="project_text2">
+                <p><strong>Baseline: </strong>Never used jQuery</p>
+
+                <p><strong>Skill Development: </strong> Introductory skills referencing and positioning DOM elements;
+                    using unordered lists horizontally, absolute positioning an image within a relatively positioned div, centering, floats, etc.</p>
+                <p>I struggled with creating a sticky footer but was assisted by Thinkful staff.</p>
+                <p>Along with learning tenets of HTML and CSS3, I gained skill in
+                    seeing the many small details needed to create an accurate clone.</p>
+            </div>
+
+            <div class="where-block animate-in" data-animation="fly-in-right" id="project_top_img2">
+                <a href="http://plantbuilder.github.io/thinkful/37Signals">
+                    <img src="img/37Signals_sm.png" />
+                </a>
+            </div>
+            <div class="where-block animate-in" id="project_comments2">
+                <h3>Google+ Comments</h3>
+                <p><strong>Frank Troglauer Jr</strong> Oct 2, 2013
+                    Nice job on this project James! There are two issues I would like to point out.
+                    First your container for the "Happy Day" text isn't wide enough. Also the content below the
+                    headline shifts up slightly when you swap out text.
+                    <a href="http://prntscr.com/1usy66">http://prntscr.com/1usy66</a></p>
+            </div>
+	</div>
+	
+	<div class="slide" id="reflections1">
+		<h2>Reflections</h2>
+		<p class="animate-build" data-build="1">I am able to violate most jQuery best practices in any exercise.</p>
+        <p class="animate-build" data-build="2">I am blind to simple solutions and pour on unnecessary complexity.</p>
+        <p class="animate-build" data-build="3">Mentor unable to meet with me. I am being assigned another, however...</p>
+		<p class="animate-build" data-build="4">I am getting good direction from comments and office hours.</p>
+	</div>
+
+    <div class="slide" id="project_title3">
+        <p>Project Three <strong class="animate-in" data-animation="space-in">Hot or Cold</strong><small>JavaScript, DevTools</small></p>
+    </div>
+    <div class="slide where" id="project_content3">
+        <div class="where-block animate-in" data-animation="fly-in-left" id="project_top_img3">
+            <a href="http://plantbuilder.github.io/thinkful/HotCold_2/">
+                <img src="img/HotCold_sm.png" />
+            </a>
+        </div>
+        <div class="where-block animate-in" data-animation="fly-in-right">
+            <h3>Challenges</h3>
+            <p>generate random numbers</p>
+            <p>restrict inputs</p>
+            <p>user feedback</p>
+            <p>dynamic DOM elements</p>
+            <p>singleton design pattern</p>
+        </div>
+        <div class="where-block animate-in" id="project_comments3">
+            <h3>Google+ Comments</h3>
+            <p><strong>Frank Troglauer Jr</strong> Oct 18, 2013 Looking good James. Couple of suggestions.
+            1. Keep users from entering just spaces or nothing as a "guess".
+            2. Allow users to press enter to submit a guess
+            3. Add hover effects for the buttons, perhaps just change text from gray to white.
+            I like the clear button. Overall nice job on this project!﻿</p>
+        </div>
+    </div>
+
+    <div class="slide" id="project_title4">
+        <p>Project Four <strong class="animate-in" data-animation="space-in">Shopping List</strong><small>Forms, jQuery, Uglyfication</small></p>
+    </div>
+
+    <div class="slide where" id="project_content4">
+
+        <div class="where-block animate-in" data-animation="fly-in-left">
+            <h3>Challenges</h3>
+            <p>colors (fail)</p>
+            <p>input redux</p>
+            <p>external libraries</p>
+            <p>DOM manipulation</p>
+            <p>user feedback</p>
+            <p>code organization</p>
+        </div>
+
+        <div class="where-block animate-in" data-animation="fly-in-right" id="project_top_img4">
+            <a href="http://plantbuilder.github.io/thinkful/37Signals">
+                <img src="img/ShoppingList_sm.png" />
+            </a>
+        </div>
+        <div class="where-block animate-in" id="project_comments4">
+            <h3>Google+ Comments</h3>
+            <p><strong>Grae Drake</strong> Oct 23, 20131 Hey, looks good.  Only critique I have is that you probably want to include the
+                sortable code in your document.ready() function.  Not actually critical in this implementation, since you can't add any
+                items to the shopping list until the document is ready, but it's best practice to keep everything in there,
+                and could be important were you to make changes down the road. P.S.  The color palette is... a good start.  Can't wait to
+                see what you do once you make it into Unit 4.  Feel free to peek at the color theory materials in U4L4.  Oh, and if you're lacking a good bedtime read you might want to start on
+                The Design of Everyday Things, available in U4L1.  Remember: it's the door's fault.﻿
+        </div>
+    </div>
+
+    <div class="slide" id="reflections2">
+        <h2>Reflections</h2>
+        <p class="animate-build" data-build="1">I am feeling overwhelmed at this point in the journey.</p>
+        <p class="animate-build" data-build="2">CSS, &nbsp;jQuery, JavaScript, UI, UX</p>
+        <p class="animate-build" data-build="3">Each domain has its own mountain to mastery.</p>
+        <p class="animate-build" data-build="4">Mentor helpfully points me in some direction(s)</p>
+        <p class="animate-build" data-build="5">in a search for structure.</p>
+    </div>
+
+    <div class="slide" id="project_title5">
+        <p>Project Five <strong class="animate-in" data-animation="space-in">Quotes Quiz</strong><small>Twitter Bootstrap3, JSON, jQuery</small></p>
+    </div>
+    <div class="slide where" id="project_content5">
+        <div class="where-block animate-in" data-animation="fly-in-left" id="project_top_img5">
+            <a href="http://plantbuilder.github.io/thinkful/QuotesQuiz">
+                <img src="img/quotesquiz_sm.png" />
+            </a>
+        </div>
+        <div class="where-block animate-in" data-animation="fly-in-right">
+            <h3>Challenges</h3>
+            <p>twitter bootstrap</p>
+            <p>parsing JSON Data</p>
+            <p>DOM elements from JSON</p>
+            <p>cleaner code</p>
+            <p>libraries</p>
+        </div>
+        <div class="where-block animate-in" id="project_comments5">
+            <h3>Google+ Comments</h3>
+            <p><strong>Frank Troglauer Jr</strong> Oct 18, 2013 Looking good James. Couple of suggestions.
+                1. Keep users from entering just spaces or nothing as a "guess".
+                2. Allow users to press enter to submit a guess
+                3. Add hover effects for the buttons, perhaps just change text from gray to white.
+                I like the clear button. Overall nice job on this project!﻿</p>
+        </div>
+    </div>
+
+    <div class="slide" id="project_title6">
+        <p>Project Six <strong class="animate-in" data-animation="space-in">Flipipedia</strong><small>API Hack, Responsive Bootstrap3, CSS3 Transforms</small></p>
+    </div>
+
+    <div class="slide where" id="project_content6">
+
+        <div class="where-block animate-in" data-animation="fly-in-left">
+            <h3>Challenges</h3>
+            <p>understanding APIs</p>
+            <p>parsing JSON</p>
+            <p>non-standard requests</p>
+            <p>multiple arrays</p>
+            <p>targeting/rebuilding links</p>
+            <p>user feedback</p>
+            <p>code organization</p>
+        </div>
+
+        <div class="where-block animate-in" data-animation="fly-in-right" id="project_top_img6">
+            <a href="http://plantbuilder.github.io/thinkful/FlipiPedia">
+                <img src="img/flipipedia_sm.png" />
+            </a>
+        </div>
+        <div class="where-block animate-in" id="project_comments6">
+            <h3>Google+ Comments</h3>
+            <p><strong>Grae Drake</strong> Oct 23, 20131 Hey, looks good.  Only critique I have is that you probably want to include the
+                sortable code in your document.ready() function.  Not actually critical in this implementation, since you can't add any
+                items to the shopping list until the document is ready, but it's best practice to keep everything in there,
+                and could be important were you to make changes down the road. P.S.  The color palette is... a good start.  Can't wait to
+                see what you do once you make it into Unit 4.  Feel free to peek at the color theory materials in U4L4.  Oh, and if you're lacking a good bedtime read you might want to start on
+                The Design of Everyday Things, available in U4L1.  Remember: it's the door's fault.﻿
+        </div>
+    </div>
+
+
+	<div class="slide where" id="where4">
+		<h2>Useful Stuff</h2>
+		<a href="https://github.com/scottjehl/Respond">Respond.js</a>
+		<a href="http://wickynilliams.github.com/enquire.js/">enquire.js</a>
+		<a href="http://styletil.es/">Style Tiles</a>
+		<a href="http://masonry.desandro.com/">Masonry</a>
+		<a href="http://css-tricks.com">CSS-Tricks</a>
+		<a href="http://fittextjs.com">FitText</a>
+		<a href="http://fitvidsjs.com">FitVids</a>
+		<a href="http://lmgtfy.com/?q=responsive+web+design">...and plenty more</a>
+	</div>
+	
+	<div class="slide" id="credits">
+		<h3>Credits</h3>
+		<p>Designed &amp; Developed by <a href="http://twitter.com/johnpolacek">John Polacek</a></p>
+		<p>Responsive Web Design Graphic by <a href="http://bakkenbaeck.com">Bakken &amp; Baeck</a></p>
+		<p>Goldilocks Approach by <a href="http://www.designbyfront.com/workinprogress/article/the-goldilocks-approach-to-responsive-design">Front</a></p>
+		<p>Spectrum of Devices Image by <a href="http://www.zurb.com">ZURB</a></p>
+		<p>Responsive Web Design Book published by <a href="www.abookapart.com">A Book Apart</a></p>
+		<p>Jeremy Keith Quotation from <a href="http://5by5.tv/webahead">The Web Ahead Podcast</a></p>
+		<p>Jeffery Veen Quotation from a book review of <a href="http://www.abookapart.com/products/responsive-web-design">&rsquo;Responsive Web Design&lsquo;</a></p>
+		<p><a href="http://code.google.com/webfonts/specimen/Corben">Corben Font</a> by <a href="https://plus.google.com/107807505287232434305/about">Vernon Adams</a></p>
+		<p><a href="http://johnpolacek.github.com/scrolldeck.js/">Scrolldeck</a> and <a href="http://johnpolacek.github.com/scrollorama">Scrollorama</a> created by <a href="http://twitter.com/johnpolacek">John Polacek</a></p>
+	</div>
+	
+	<script>
+		$(document).ready(function() {
+			
+			var deck = new $.scrolldeck({
+				buttons: '.nav-button',
+				easing: 'easeInOutExpo'
+			});
+			
+		});
+	</script>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-2821890-9']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body></html>

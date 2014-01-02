@@ -86,7 +86,22 @@ window.template = function(id) {
     });
 
     App.Views.AddTask = Backbone.View.extend({
+        el: '#addTask',
 
+        events: {
+            'submit': 'submit'
+        },
+
+        initialize: function() {
+
+        },
+
+        submit: function(e) {
+            e.preventDefault();
+            var newShoppingListItem = $(e.currentTarget).find('input[type=text]').val();
+            var task = new App.Models.Task({ title: newShoppingListItem });
+
+        }
     });
 
     var tasks = new App.Collections.Tasks([

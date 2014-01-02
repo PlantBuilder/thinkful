@@ -174,7 +174,7 @@ body {
 }
 */
 
-    [class*='col-']:last-of-type {
+[   class*='col-']:last-of-type {
     padding-right: 20px;
 }
 

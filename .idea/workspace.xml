@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ShoppingList_3/script.js" afterPath="$PROJECT_DIR$/ShoppingList_3/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_3/index.html" afterPath="$PROJECT_DIR$/ShoppingList_3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShoppingList_3/main.js" afterPath="$PROJECT_DIR$/ShoppingList_3/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuotesQuiz/style.css" afterPath="$PROJECT_DIR$/QuotesQuiz/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
@@ -27,28 +28,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="64" selection-start="5582" selection-end="5582" vertical-scroll-proportion="2.033195" vertical-offset="0" max-vertical-offset="4575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="192" column="21" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" vertical-offset="2334" max-vertical-offset="7125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
+        <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="134" selection-end="134" vertical-scroll-proportion="-4.25" vertical-offset="0" max-vertical-offset="714">
+            <state line="9" column="0" selection-start="240" selection-end="284" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.js">
+      <file leaf-file-name="jquery.scrolldeck.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/jquery.scrolldeck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.050209206" vertical-offset="108" max-vertical-offset="2088">
+            <state line="40" column="45" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3090">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.css">
+      <file leaf-file-name="normalize.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="17" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2730">
+            <state line="118" column="30" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="6495">
               <folding />
             </state>
           </provider>
@@ -72,10 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/QuotesQuiz/index.html" />
-        <option value="$PROJECT_DIR$/HotCold_2/script.js" />
-        <option value="$PROJECT_DIR$/QuotesQuiz/script.js" />
-        <option value="$PROJECT_DIR$/ed-lea-jquery-collagePlus/jquery.collagePlus.js" />
         <option value="$PROJECT_DIR$/Wikipedia-master/css/jquery.wikipedia.css" />
         <option value="$PROJECT_DIR$/FlipiPedia/js/jquery.collagePlus.js" />
         <option value="$PROJECT_DIR$/FlipiPedia/css/jquery.wikipedia.css" />
@@ -88,13 +103,17 @@
         <option value="$PROJECT_DIR$/ShoppingList_3/script.js" />
         <option value="$PROJECT_DIR$/ShoppingList_3/index.html" />
         <option value="$PROJECT_DIR$/ShoppingList_3/main.js" />
+        <option value="$PROJECT_DIR$/QuotesQuiz/style.css" />
+        <option value="$PROJECT_DIR$/Portfolio/css/normalize.css" />
+        <option value="$PROJECT_DIR$/Portfolio/css/style.css" />
+        <option value="$PROJECT_DIR$/Portfolio/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="25" />
     <option name="y" value="22" />
-    <option name="width" value="1305" />
+    <option name="width" value="1407" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -145,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,65 +183,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShoppingList_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShoppingList_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuotesQuiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlipiPedia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,23 +203,20 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="91a70a5a-9193-4dd7-afa5-18d0ff629332">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
-  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Thinkful">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -267,14 +227,6 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
@@ -283,6 +235,7 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <configuration default="false" name="Thinkful" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/thinkful/ShoppingList_3/index.html">
@@ -321,29 +274,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="22" width="1305" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="25" y="22" width="1407" height="878" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5263158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33509234" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24384432" sideWeight="0.42771983" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18018721" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2668785" sideWeight="0.66490763" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23071271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1800147" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.66490763" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -363,10 +316,15 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25666413" sideWeight="0.6710037" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -382,94 +340,141 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/css/all.css">
+    <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="96" selection-start="1881" selection-end="1881" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="3375" />
+        <state line="68" column="113" selection-start="3750" selection-end="3750" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="4575">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/jquery.wikipedia.js">
+    <entry file="file://$PROJECT_DIR$/Portfolio/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="97" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3424" selection-end="3471" vertical-scroll-proportion="0.5601093" vertical-offset="1150" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="728" column="0" selection-start="17553" selection-end="17553" vertical-scroll-proportion="0.0" vertical-offset="10634" max-vertical-offset="132345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HotCold_2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_2/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="40" selection-end="1337" vertical-scroll-proportion="0.08344924" vertical-offset="0" max-vertical-offset="915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/37signals/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29346314" vertical-offset="211" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/37signals/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945" />
+        <state line="261" column="26" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="3579" max-vertical-offset="6990">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="719" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="444" selection-end="444" vertical-scroll-proportion="0.28057554" vertical-offset="0" max-vertical-offset="695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="17" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2730">
+        <state line="9" column="0" selection-start="240" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_3/mainOrig.js">
+    <entry file="file://$PROJECT_DIR$/lib/jquery.scrolldeck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="45" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.77397263" vertical-offset="170" max-vertical-offset="1680">
+        <state line="40" column="45" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3090">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1495" selection-end="1516" vertical-scroll-proportion="0.23917995" vertical-offset="420" max-vertical-offset="1545">
+        <state line="118" column="30" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="6495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/jquery.scrolldeck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="134" selection-end="134" vertical-scroll-proportion="-4.25" vertical-offset="0" max-vertical-offset="714">
+        <state line="40" column="45" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="3090">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuotesQuiz/index.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="632" selection-end="729" vertical-scroll-proportion="0.44419134" vertical-offset="0" max-vertical-offset="1140">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingList_3/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.050209206" vertical-offset="108" max-vertical-offset="2088">
+        <state line="93" column="65" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.25273225" vertical-offset="1210" max-vertical-offset="1965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShoppingList_3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="66" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.77697843" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/index_before_twit_boot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="3386" selection-end="3407" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="5550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlipiPedia/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="113" selection-end="186" vertical-scroll-proportion="0.086330935" vertical-offset="0" max-vertical-offset="1545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuotesQuiz/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="0" selection-start="3450" selection-end="3468" vertical-scroll-proportion="0.63114756" vertical-offset="2238" max-vertical-offset="3225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/img/quotesquiz_sm.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/37signals/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.942623" vertical-offset="3618" max-vertical-offset="4350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/img/clean_m.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/img/clean_l.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery.scrolldeck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="45" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="3090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="30" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1399" max-vertical-offset="6495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotCold_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="240" selection-end="284" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/img/hand_keys.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/img/hand_down.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="21" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" vertical-offset="2334" max-vertical-offset="7125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="64" selection-start="5582" selection-end="5582" vertical-scroll-proportion="2.033195" vertical-offset="0" max-vertical-offset="4575">
           <folding />
         </state>
       </provider>
