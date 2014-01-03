@@ -189,6 +189,11 @@ img {
     color: #2e686c;
 }
 
+[   id*='text'] p a {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
 [   id*='content'] {
     text-align: left;
     padding: 60px 0 200px;
