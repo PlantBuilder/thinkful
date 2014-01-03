@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/index.html" afterPath="$PROJECT_DIR$/Portfolio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="299" column="58" selection-start="19037" selection-end="19037" vertical-scroll-proportion="0.6846473" vertical-offset="3990" max-vertical-offset="4845">
+            <state line="52" column="21" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.560166" vertical-offset="375" max-vertical-offset="4845">
               <folding />
             </state>
           </provider>
@@ -180,24 +181,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="299" column="58" selection-start="19037" selection-end="19037" vertical-scroll-proportion="0.6846473" vertical-offset="3990" max-vertical-offset="4845">
+        <state line="52" column="21" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.560166" vertical-offset="375" max-vertical-offset="4845">
           <folding />
         </state>
       </provider>
