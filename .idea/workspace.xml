@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/GoogleClone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/ThinkfuLogo-200x41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/arrow_keys_base.acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/clean_l.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/clean_m.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/hand_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/thisisresponsive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/treehouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/tuts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/img/you_r_here_sm..png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/index.html" afterPath="$PROJECT_DIR$/Portfolio/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="283" column="50" selection-start="18183" selection-end="18183" vertical-scroll-proportion="0.39419088" vertical-offset="3960" max-vertical-offset="4845">
+            <state line="299" column="58" selection-start="19037" selection-end="19037" vertical-scroll-proportion="0.6846473" vertical-offset="3990" max-vertical-offset="4845">
               <folding />
             </state>
           </provider>
@@ -649,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="50" selection-start="18183" selection-end="18183" vertical-scroll-proportion="0.39419088" vertical-offset="3960" max-vertical-offset="4845">
+        <state line="299" column="58" selection-start="19037" selection-end="19037" vertical-scroll-proportion="0.6846473" vertical-offset="3990" max-vertical-offset="4845">
           <folding />
         </state>
       </provider>
