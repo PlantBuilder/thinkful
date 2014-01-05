@@ -331,6 +331,10 @@ div a:hover ~ img {
 	font-size: 1.8rem;
 }
 
+#my-comments {
+    margin-top: -40px;
+}
+
 /*------------------------  IMAGES  */
 
 /* width % is width of img / 1280 px (target screen width)  */
