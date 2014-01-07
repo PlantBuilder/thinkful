@@ -316,21 +316,6 @@ div a:hover ~ img {
 	padding: .3rem;
 }
 
-#credits h3, #credits h4 {
-	margin: 2.4rem 0 .6rem;
-}
-
-#credits h4 {
-	font-size: 18px;
-	font-size: 1.8rem;
-}
-
-#credits p {
-	margin: 0;
-	font-size: 18px;
-	font-size: 1.8rem;
-}
-
 #my-comments {
     margin-top: -40px;
 }
@@ -374,9 +359,6 @@ div a:hover ~ img {
     width: 12.47%;
 }
 
-#img-devices {
-	width: 67.03%;
-}
 
 #img-bg-s {
 	width: 13.83%;
@@ -390,14 +372,6 @@ div a:hover ~ img {
 	width: 45.31%;
 }
 
-#img-illy-s {
-	width: 15%;
-}
-
-#img-illy-l {
-	width: 46.09%;
-}
-
 /* width % is width of img / (40% of 1280 px) (containers are 40% of target screen width)  */
 
 .where-block .img-wrap {
@@ -407,6 +381,18 @@ div a:hover ~ img {
 #where3 .where-block .img-wrap {
 	width: 86.33%;
 }
+
+#social {
+    margin-top: -420px;
+    text-align: center;
+}
+
+#social img {
+    height: 64px;
+    width: 64px;
+}
+
+
 
 /*------------------------  BASE-REM SIZING  */
 
