@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="893f006a-28ed-4fac-9a1b-b25a0ecd236c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/index.html" afterPath="$PROJECT_DIR$/Portfolio/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="135" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.43706778" vertical-offset="494" max-vertical-offset="5220">
+            <state line="317" column="37" selection-start="20643" selection-end="20643" vertical-scroll-proportion="0.59059477" vertical-offset="4328" max-vertical-offset="5220">
               <folding />
             </state>
           </provider>
@@ -283,7 +282,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="22" width="1407" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -612,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="135" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.43706778" vertical-offset="494" max-vertical-offset="5220">
+        <state line="317" column="37" selection-start="20643" selection-end="20643" vertical-scroll-proportion="0.59059477" vertical-offset="4328" max-vertical-offset="5220">
           <folding />
         </state>
       </provider>
