@@ -93,26 +93,18 @@ footer p span {
 }
 
 .logoTop {
-    -webkit-transform: translateX(85px) /*translateY(-40px)*/ scaleX(-1);
-    transform: translateY(85px) /* translateY(-40px) */ scaleX(-1);
-
-
-    -webkit-transition: all 1s ease-in;
+    transform: translateX(85px) scaleX(-1);
     transition: all 1s ease-in;
 }
 
 .logoTop:hover {
-    -webkit-transform:   translateX(85px) /* translateY(-40px) */ scaleX(1);
-    transform: scaleX(-1)  translateY(85px) /* translateY(-40px) */ scaleX(1);
-
-    -webkit-transition: all .3s ease-in;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg) scaleX(-1) translateX(85px);
     transition: all .3s ease-in;
 }
 
 .logoBottom {
-    -webkit-transform: translateX(-83px) translateY(80px);
-    transform: translateY(-83px) translateY(80px);
-    -webkit-transition: all 0.3s ease-in;
+    transform: translateX(-83px) translateY(80px);
     transition: all 1s ease-in;
 }
 
