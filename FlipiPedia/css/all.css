@@ -209,3 +209,12 @@ footer p span {
 #btn_search {
     margin-bottom: 25px;
 }
+
+@media (max-width: 600px) {
+    .logoTop {
+        transform: translateX(84px) scaleX(-1);
+        transition: all 1s ease-in;
+    }
+
+
+}
